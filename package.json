@@ -1,0 +1,16 @@
+{
+  "name": "dwf-m5-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ayrton08/dwf-m5-desafio.git",
+  "author": "ayrton juarez <ayrtonjuarez90@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  }
+}

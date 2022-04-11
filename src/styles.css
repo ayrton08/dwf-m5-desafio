@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url("./images/fondo.png");
+    height: 672px; 
+}
+
+.contenedor {
+    padding: 50px 34px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 672px;
+}
+.container {
+    display: flex;
+    gap: 30px;
+}
+
