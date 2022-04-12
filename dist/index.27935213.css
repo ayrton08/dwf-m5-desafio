@@ -1,0 +1,39 @@
+.container-perdiste {
+    background-color:  #894949;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container-ganaste {
+    background-color: #888949;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.container-perdiste img {
+    width: 250px;
+}
+
+.container-ganaste img {
+    width: 250px;
+}
+
+.container-empate {
+    background-color:  #F1C40F;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*# sourceMappingURL=index.27935213.css.map */

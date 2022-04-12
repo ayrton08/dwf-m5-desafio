@@ -7,6 +7,8 @@ import { tijera } from "./components/tijera-comp";
 import {buttonPlay} from "./components/button-play/index"
 import { instructionsComp } from "./components/instruction-comp";
 import { buttonPlayAgain } from "./components/button-playagain";
+import { counterComp } from "./components/counter/index";
+import { historyComp } from "./components/history-game";
 
 
 (function (){
@@ -18,6 +20,8 @@ import { buttonPlayAgain } from "./components/button-playagain";
     tijera()
     instructionsComp()
     buttonPlayAgain()
+    counterComp()
+    historyComp()
 
     const root = document.querySelector(".root");
 

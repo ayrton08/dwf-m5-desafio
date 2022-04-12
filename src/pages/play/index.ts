@@ -1,11 +1,22 @@
 import { state } from "../../state";
 
 export function play(params) {
-    const div = document.createElement("div");
-    div.innerHTML = `
+    
+    function redireccionar() {
+        if(location.pathname === "/play"){
+            params.goTo("/instructions");
+        }
+    }
 
-    <div class="container">
-    <piedra-comp class="piedra"></piedra-comp>
+    setTimeout(redireccionar, 5000);
+
+    const div = document.createElement("div");
+    div.className = "container-play";
+    div.innerHTML = `
+    
+    <counter-comp></counter-comp>
+    <div class="jugadas">
+    <piedra-comp></piedra-comp>
     <papel-comp></papel-comp>
     <tijera-comp></tijera-comp>
     </div>
@@ -14,46 +25,82 @@ export function play(params) {
     function jugadaMaquina() {
         const opciones = ["piedra", "papel", "tijera"];
         const resultado = opciones[Math.floor(Math.random() * opciones.length)];
-        return resultado
+        return resultado;
     }
-    
 
-    const piedra = div.querySelector("piedra-comp")
-    const papel = div.querySelector("papel-comp")
-    const tijera = div.querySelector("tijera-comp")
-
-    piedra.addEventListener("click", (event)=>{
-        event.preventDefault()
-        const resultado = state.whoWins("piedra", jugadaMaquina())
-        if(resultado == true) {
-            params.goTo("/result/ganaste")
-        } else{
-            params.goTo("/result/perdiste")
-        }
-    })
+    const piedra = div.querySelector("piedra-comp");
+    const papel = div.querySelector("papel-comp");
+    const tijera = div.querySelector("tijera-comp");
     
-    papel.addEventListener("click", (event)=>{
-        event.preventDefault()
-        const resultado = state.whoWins("papel", jugadaMaquina())
-        if(resultado == true) {
-            params.goTo("/result/ganaste")
-        } else{
-            params.goTo("/result/perdiste")
-        }
-    })
-
-    tijera.addEventListener("click", (event)=>{
-        event.preventDefault()
-        const resultado = state.whoWins("tijera", jugadaMaquina())
-        if(resultado == true) {
-            params.goTo("/result/ganaste")
-        } else{
-            params.goTo("/result/perdiste")
-        }
-    })
     
+    piedra.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        papel.style.opacity = "0.4"
+        tijera.style.opacity = "0.4"
+        
+        const playMaquina = jugadaMaquina()
+
+        const resultado = state.whoWins("piedra", playMaquina);
+        setTimeout(()=>{
+
+            if (resultado === "gane") {
+                state.win();
+                return params.goTo("/result/jugada",{resultado:"ganaste",player:"piedra",machine:playMaquina});
+
+            }
+            if (resultado === "empate") {
+                return params.goTo("/result/jugada",{resultado:"empate",player:"piedra",machine:playMaquina});
+            } else {
+                state.lost();
+                return params.goTo("/result/jugada",{resultado:"perdiste",player:"piedra",machine:playMaquina});
+            }
+        },700)
+    });
+
+    papel.addEventListener("click", (event) => {
+        event.preventDefault();
+        
+        piedra.style.opacity = "0.4"
+        tijera.style.opacity = "0.4"
+        
+        const resultado = state.whoWins("papel", jugadaMaquina());
+        setTimeout(()=>{
+
+            if (resultado === "gane") {
+                state.win();
+                return params.goTo(`/result/${history.state.resultado}`);
+            }
+            if (resultado === "empate") {
+                return params.goTo("/result/empate");
+            } else {
+                state.lost();
+                return params.goTo("/result/perdiste");
+            }
+        },700)
+    });
+
+    tijera.addEventListener("click", (event) => {
+        event.preventDefault();
+        
+        papel.style.opacity = "0.4"
+        piedra.style.opacity = "0.4"
+
+        const resultado = state.whoWins("tijera", jugadaMaquina());
+        setTimeout(()=>{
+
+            if (resultado === "gane") {
+                state.win();
+                return params.goTo("/result/ganaste");
+            }
+            if (resultado === "empate") {
+                return params.goTo("/result/empate");
+            } else {
+                state.lost();
+                return params.goTo("/result/perdiste");
+            }
+        },700)
+    });
 
     return div;
 }
-
-

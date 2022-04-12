@@ -2,8 +2,13 @@ export function buttonStart() {
     class Button extends HTMLElement {
         constructor() {
             super();
-            this.render();
         }
+
+        connectedCallback(){
+            this.render();
+
+        }
+
         render() {
             this.attachShadow({ mode: "open" });
 

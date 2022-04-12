@@ -3,10 +3,17 @@ const image = require("url:../../images/ganaste.svg");
 
 export function ganaste (params) {
     const div = document.createElement("div")
-    div.innerHTML = `
-        <img src="${image}" >
-        <button-playagain></button-playagain>
+    div.className = "container-ganaste"
 
+    console.log(history.state.resultado)
+    console.log(history.state.player)
+    console.log(history.state.machine)
+
+    div.innerHTML = `
+        <img src="${image}">
+        <history-comp></history-comp>
+        <button-playagain></button-playagain>
+    
         `
     
     const button = div.querySelector("button-playagain")
@@ -14,6 +21,8 @@ export function ganaste (params) {
         event.preventDefault()
         params.goTo("/play")
     })
+
+    
 
     return div
 }

@@ -3,6 +3,11 @@ import { welcomePage } from "./pages/welcome/index";
 import { play } from "./pages/play/index";
 import { ganaste } from "./pages/result/ganaste";
 import { perdiste } from "./pages/result/perdiste";
+import { empate } from "./pages/result/empate";
+import { jugada } from "./pages/jugada";
+
+
+
 
 const routes = [
     {
@@ -22,20 +27,27 @@ const routes = [
         component: perdiste,
     },
     {
+        path: /\/result\/jugada/,
+        component: jugada,
+    },
+    {
         path: /\/result\/ganaste/,
         component: ganaste,
+    },
+    {
+        path: /\/result\/empate/,
+        component: empate,
     },
 ];
 
 export function initRouter(container: Element) {
-    function goTo(path) {
-        history.pushState({}, "", path);
+    function goTo(path,data) {
+        
+        history.pushState(data, "", path);
         handleRoute(path);
     }
 
     function handleRoute(route) {
-        console.log("El handle route recibio una nueva ruta");
-
         for (const r of routes) {
             if (r.path.test(route)) {
                 const el = r.component({ goTo: goTo });
@@ -50,13 +62,12 @@ export function initRouter(container: Element) {
     }
 
     if (location.pathname === "/") {
-        goTo("/welcome");
+        goTo("/welcome","");
     } else {
         handleRoute(location.pathname);
     }
-
+    
     window.onpopstate = (event) => {
         handleRoute(location.pathname);
     };
 }
-

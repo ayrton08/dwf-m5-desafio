@@ -464,6 +464,8 @@ var _tijeraComp = require("./components/tijera-comp");
 var _index3 = require("./components/button-play/index");
 var _instructionComp = require("./components/instruction-comp");
 var _buttonPlayagain = require("./components/button-playagain");
+var _index4 = require("./components/counter/index");
+var _historyGame = require("./components/history-game");
 (function() {
     _index.titleText();
     _buttonStart.buttonStart();
@@ -473,11 +475,13 @@ var _buttonPlayagain = require("./components/button-playagain");
     _tijeraComp.tijera();
     _instructionComp.instructionsComp();
     _buttonPlayagain.buttonPlayAgain();
+    _index4.counterComp();
+    _historyGame.historyComp();
     const root = document.querySelector(".root");
     _router.initRouter(root);
 })();
 
-},{"./router":"b2iia","./components/title-text/index":"3QvFM","./components/button-start":"9F0Ma","./components/papel-comp/index":"cCufa","./components/piedra-comp/index":"jMtgL","./components/tijera-comp":"roM93","./components/button-play/index":"hl5hE","./components/instruction-comp":"e9lCc","./components/button-playagain":"leAA5"}],"b2iia":[function(require,module,exports) {
+},{"./router":"b2iia","./components/title-text/index":"3QvFM","./components/button-start":"9F0Ma","./components/papel-comp/index":"cCufa","./components/piedra-comp/index":"jMtgL","./components/tijera-comp":"roM93","./components/button-play/index":"hl5hE","./components/instruction-comp":"e9lCc","./components/button-playagain":"leAA5","./components/counter/index":"kSmEm","./components/history-game":"3puv8"}],"b2iia":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "initRouter", ()=>initRouter
@@ -487,6 +491,8 @@ var _index = require("./pages/welcome/index");
 var _index1 = require("./pages/play/index");
 var _ganaste = require("./pages/result/ganaste");
 var _perdiste = require("./pages/result/perdiste");
+var _empate = require("./pages/result/empate");
+var _jugada = require("./pages/jugada");
 const routes = [
     {
         path: /\/welcome/,
@@ -505,18 +511,24 @@ const routes = [
         component: _perdiste.perdiste
     },
     {
+        path: /\/result\/jugada/,
+        component: _jugada.jugada
+    },
+    {
         path: /\/result\/ganaste/,
         component: _ganaste.ganaste
+    },
+    {
+        path: /\/result\/empate/,
+        component: _empate.empate
     }, 
 ];
 function initRouter(container) {
-    function goTo(path) {
-        history.pushState({
-        }, "", path);
+    function goTo(path, data) {
+        history.pushState(data, "", path);
         handleRoute(path);
     }
     function handleRoute(route) {
-        console.log("El handle route recibio una nueva ruta");
         for (const r of routes)if (r.path.test(route)) {
             const el = r.component({
                 goTo: goTo
@@ -525,14 +537,14 @@ function initRouter(container) {
             container.appendChild(el);
         }
     }
-    if (location.pathname === "/") goTo("/welcome");
+    if (location.pathname === "/") goTo("/welcome", "");
     else handleRoute(location.pathname);
     window.onpopstate = (event)=>{
         handleRoute(location.pathname);
     };
 }
 
-},{"./pages/welcome/index":"bFh5y","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","./pages/instructions":"iaM8p","./pages/play/index":"dLRVB","./pages/result/ganaste":"fgnxi","./pages/result/perdiste":"bargu"}],"bFh5y":[function(require,module,exports) {
+},{"./pages/welcome/index":"bFh5y","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","./pages/instructions":"iaM8p","./pages/play/index":"dLRVB","./pages/result/ganaste":"fgnxi","./pages/result/perdiste":"bargu","./pages/result/empate":"en76d","./pages/jugada":"hXoBe"}],"bFh5y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "welcomePage", ()=>welcomePage
@@ -605,8 +617,13 @@ parcelHelpers.export(exports, "play", ()=>play
 );
 var _state = require("../../state");
 function play(params) {
+    function redireccionar() {
+        if (location.pathname === "/play") params.goTo("/instructions");
+    }
+    setTimeout(redireccionar, 5000);
     const div = document.createElement("div");
-    div.innerHTML = `\n\n    <div class="container">\n    <piedra-comp class="piedra"></piedra-comp>\n    <papel-comp></papel-comp>\n    <tijera-comp></tijera-comp>\n    </div>\n    `;
+    div.className = "container-play";
+    div.innerHTML = `\n    \n    <counter-comp></counter-comp>\n    <div class="jugadas">\n    <piedra-comp></piedra-comp>\n    <papel-comp></papel-comp>\n    <tijera-comp></tijera-comp>\n    </div>\n    `;
     function jugadaMaquina() {
         const opciones = [
             "piedra",
@@ -621,21 +638,67 @@ function play(params) {
     const tijera = div.querySelector("tijera-comp");
     piedra.addEventListener("click", (event)=>{
         event.preventDefault();
-        const resultado = _state.state.whoWins("piedra", jugadaMaquina());
-        if (resultado == true) params.goTo("/result/ganaste");
-        else params.goTo("/result/perdiste");
+        papel.style.opacity = "0.4";
+        tijera.style.opacity = "0.4";
+        const playMaquina = jugadaMaquina();
+        const resultado = _state.state.whoWins("piedra", playMaquina);
+        setTimeout(()=>{
+            if (resultado === "gane") {
+                _state.state.win();
+                return params.goTo("/result/jugada", {
+                    resultado: "ganaste",
+                    player: "piedra",
+                    machine: playMaquina
+                });
+            }
+            if (resultado === "empate") return params.goTo("/result/jugada", {
+                resultado: "empate",
+                player: "piedra",
+                machine: playMaquina
+            });
+            else {
+                _state.state.lost();
+                return params.goTo("/result/jugada", {
+                    resultado: "perdiste",
+                    player: "piedra",
+                    machine: playMaquina
+                });
+            }
+        }, 700);
     });
     papel.addEventListener("click", (event)=>{
         event.preventDefault();
+        piedra.style.opacity = "0.4";
+        tijera.style.opacity = "0.4";
         const resultado = _state.state.whoWins("papel", jugadaMaquina());
-        if (resultado == true) params.goTo("/result/ganaste");
-        else params.goTo("/result/perdiste");
+        setTimeout(()=>{
+            if (resultado === "gane") {
+                _state.state.win();
+                return params.goTo(`/result/${history.state.resultado}`);
+            }
+            if (resultado === "empate") return params.goTo("/result/empate");
+            else {
+                _state.state.lost();
+                return params.goTo("/result/perdiste");
+            }
+        }, 700);
     });
     tijera.addEventListener("click", (event)=>{
         event.preventDefault();
+        papel.style.opacity = "0.4";
+        piedra.style.opacity = "0.4";
         const resultado = _state.state.whoWins("tijera", jugadaMaquina());
-        if (resultado == true) params.goTo("/result/ganaste");
-        else params.goTo("/result/perdiste");
+        setTimeout(()=>{
+            if (resultado === "gane") {
+                _state.state.win();
+                return params.goTo("/result/ganaste");
+            }
+            if (resultado === "empate") return params.goTo("/result/empate");
+            else {
+                _state.state.lost();
+                return params.goTo("/result/perdiste");
+            }
+        }, 700);
     });
     return div;
 }
@@ -656,19 +719,33 @@ const state = {
             }
         ]
     },
-    // setMove(move: Jugada) {
-    //     const currentState = this.getState();
-    //     currentState.currentGame.myPlay;
-    // },
-    // pushToHistory(play){
-    //     const currentState = this.getState();
-    //     currentState.history(play)
-    // },
+    win () {
+        if (!!sessionStorage.getItem("vos")) {
+            const value = sessionStorage.getItem("vos");
+            return sessionStorage.setItem("vos", JSON.stringify(Number(value) + 1));
+        }
+        sessionStorage.setItem("vos", "1");
+    },
+    lost () {
+        if (!!sessionStorage.getItem("maquina")) {
+            const value = sessionStorage.getItem("maquina");
+            sessionStorage.setItem("maquina", JSON.stringify(Number(value) + 1));
+        } else sessionStorage.setItem("maquina", "1");
+    },
+    historyVos () {
+        const value = JSON.parse(sessionStorage.getItem("vos"));
+        return value;
+    },
+    historyMaquina () {
+        const value = JSON.parse(sessionStorage.getItem("maquina"));
+        return value;
+    },
     whoWins (myPlay, computerPlay) {
-        if (myPlay == "papel" && computerPlay == "piedra") return true;
-        if (myPlay == "piedra" && computerPlay == "tijera") return true;
-        if (myPlay == "tijera" && computerPlay == "papel") return true;
-        else return false;
+        if (myPlay === "papel" && computerPlay === "piedra") return "gane";
+        if (myPlay === "piedra" && computerPlay === "tijera") return "gane";
+        if (myPlay === "tijera" && computerPlay === "papel") return "gane";
+        if (myPlay === computerPlay) return "empate";
+        else return "perdi";
     }
 };
 
@@ -680,7 +757,11 @@ parcelHelpers.export(exports, "ganaste", ()=>ganaste
 const image = require("url:../../images/ganaste.svg");
 function ganaste(params) {
     const div = document.createElement("div");
-    div.innerHTML = `\n        <img src="${image}" >\n        <button-playagain></button-playagain>\n\n        `;
+    div.className = "container-ganaste";
+    console.log(history.state.resultado);
+    console.log(history.state.player);
+    console.log(history.state.machine);
+    div.innerHTML = `\n        <img src="${image}">\n        <history-comp></history-comp>\n        <button-playagain></button-playagain>\n    \n        `;
     const button = div.querySelector("button-playagain");
     button.addEventListener("click", (event)=>{
         event.preventDefault();
@@ -735,7 +816,11 @@ parcelHelpers.export(exports, "perdiste", ()=>perdiste
 const image = require("url:../../images/perdiste.svg");
 function perdiste(params) {
     const div = document.createElement("div");
-    div.innerHTML = `\n        <img src="${image}" >\n        <button-playagain></button-playagain>\n\n        `;
+    div.className = "container-perdiste";
+    console.log(history.state.resultado);
+    console.log(history.state.player);
+    console.log(history.state.machine);
+    div.innerHTML = `\n        <img src="${image}" >\n        <history-comp></history-comp>\n        <button-playagain></button-playagain>\n\n        `;
     const button = div.querySelector("button-playagain");
     button.addEventListener("click", (event)=>{
         event.preventDefault();
@@ -747,7 +832,52 @@ function perdiste(params) {
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","url:../../images/perdiste.svg":"53PIf"}],"53PIf":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('Z8Pbo') + "perdiste.3c175a61.svg";
 
-},{"./helpers/bundle-url":"8YnfL"}],"3QvFM":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8YnfL"}],"en76d":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "empate", ()=>empate
+);
+const image = require("url:../../images/ganaste.svg");
+const giphy = require("url:../../images/giphy.gif");
+function empate(params) {
+    const div = document.createElement("div");
+    div.className = "container-empate";
+    console.log(history.state.resultado);
+    console.log(history.state.player);
+    console.log(history.state.machine);
+    div.innerHTML = `\n        <img src="${giphy}" alt="">\n        <button-playagain></button-playagain>\n    \n        `;
+    const button = div.querySelector("button-playagain");
+    button.addEventListener("click", (event)=>{
+        event.preventDefault();
+        params.goTo("/play");
+    });
+    return div;
+}
+
+},{"url:../../images/ganaste.svg":"93kOd","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","url:../../images/giphy.gif":"43gMO"}],"43gMO":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('Z8Pbo') + "giphy.d20f452e.gif";
+
+},{"./helpers/bundle-url":"8YnfL"}],"hXoBe":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "jugada", ()=>jugada
+);
+function jugada(params) {
+    const div = document.createElement("div");
+    div.className = "container-jugada";
+    console.log(history.state.player);
+    console.log(history.state.machine);
+    console.log(history.state.resultado);
+    const jugada1 = {
+        papel: `<papel-comp></papel-comp>`,
+        piedra: `<piedra-comp></piedra-comp>`,
+        tijera: `<tijera-comp></tijera-comp>`
+    };
+    div.innerHTML = `\n            ${jugada1[history.state.machine]}\n            ${jugada1[history.state.player]}\n            `;
+    return div;
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"3QvFM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "titleText", ()=>titleText
@@ -783,6 +913,8 @@ function buttonStart() {
     class Button extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -819,6 +951,8 @@ function papel() {
             });
             const div = document.createElement("img");
             div.src = image;
+            div.style.width = "85px";
+            div.style.height = "160px";
             this.shadowRoot.appendChild(div);
         }
     }
@@ -846,6 +980,8 @@ function piedra() {
             });
             const div = document.createElement("img");
             div.src = image;
+            div.style.width = "70px";
+            div.style.height = "160px";
             this.shadowRoot.appendChild(div);
         }
     }
@@ -873,6 +1009,8 @@ function tijera() {
             });
             const div = document.createElement("img");
             div.src = image;
+            div.style.width = "70px";
+            div.style.height = "160px";
             this.shadowRoot.appendChild(div);
         }
     }
@@ -963,6 +1101,92 @@ function buttonPlayAgain() {
     customElements.define("button-playagain", ButtonPlayAgain);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}]},["8uBhv","4aleK"], "4aleK", "parcelRequire1eea")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"kSmEm":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "counterComp", ()=>counterComp
+);
+function counterComp() {
+    class Counter extends HTMLElement {
+        constructor(){
+            super();
+        }
+        connectedCallback() {
+            this.render();
+        }
+        render() {
+            this.attachShadow({
+                mode: "open"
+            });
+            this.counter();
+            const div = document.createElement("div");
+            div.className = "root";
+            div.innerHTML = `\n            <div class="clock">\n	        <span class="seconds"></span>\n            </div>\n            \n            ${this.getStyle()}    \n            `;
+            this.shadowRoot.appendChild(div);
+        }
+        getStyle() {
+            return `\n            <style>\n                .clock {\n	        width: 300px;\n	        height: 300px;\n	        border-radius: 50%;\n	        background-color: lightgrey;\n	        margin: auto;\n            font-family: 'Odibee Sans', cursive;\n            }\n        \n                .seconds {\n	        display: block;\n	        width: 100%;\n	        margin: auto;\n	        padding-top: 60px;\n	        text-align: center;\n	        font-size: 150px;\n            }\n          \n            \n            </style>\n\n            `;
+        }
+        counter() {
+            let counter = 4;
+            let interval = setInterval(()=>{
+                counter--;
+                if (counter == 3) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "3";
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#F8C471";
+                } else if (counter == 2) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "2";
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#2ECC71 ";
+                } else if (counter == 1) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "1";
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#D2B4DE";
+                } else if (counter == 0) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.innerHTML = `\n                    <span class="time">Time's Over</span>\n                    <style>\n                        .time {\n                    font-size: 70px;\n                    color: crimson;\n                    }\n                    </style>\n                    `;
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#F1948A";
+                } else clearInterval(interval);
+            }, 1000);
+            return interval;
+        }
+    }
+    customElements.define("counter-comp", Counter);
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"3puv8":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "historyComp", ()=>historyComp
+);
+var _state = require("../../state");
+function historyComp() {
+    class History1 extends HTMLElement {
+        constructor(){
+            super();
+            this.render();
+        }
+        render() {
+            this.attachShadow({
+                mode: "open"
+            });
+            const div = document.createElement("div");
+            div.className = "container";
+            div.innerHTML = `\n                <div>Score</div>\n                <div class="content">\n                <span>Vos: ${_state.state.historyVos()}</span>\n                <span>Maquina: ${_state.state.historyMaquina()}</span>\n                </div>\n                ${this.getStyle()}\n            `;
+            this.shadowRoot.appendChild(div);
+        }
+        getStyle() {
+            return `\n            <style>\n            \n\n                .container {\n\n                margin: 0;\n                color: #000000;\n                font-family: 'Odibee Sans', cursive;\n                font-size: 55px;\n                font-weight: bold; \n                text-align: center;\n                \n\n                display: flex;\n                flex-direction: column;\n                justify-content: space-around;\n                align-items: center;\n                padding: 20px;\n\n\n                background-color: antiquewhite;\n                border: black solid 10px;\n                border-radius: 10px;\n                width: 259px;\n                height: 217px;\n\n            }\n\n            .content {\n                display: flex;\n                flex-direction: column;\n                text-align: end;\n                font-size: 45px;\n                \n                \n\n            }\n            \n            </style>\n\n            `;
+        }
+    }
+    customElements.define("history-comp", History1);
+}
+
+},{"../../state":"28XHA","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}]},["8uBhv","4aleK"], "4aleK", "parcelRequire1eea")
 
 //# sourceMappingURL=index.b31310b1.js.map

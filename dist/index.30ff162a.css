@@ -15,13 +15,42 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 30px;
     min-height: 672px;
+}
+
+@media(min-width: 750px){
+    .contenedor {
+        width: 100%;
+        height: 940px;
+        display: flex;
+        padding: 0 600px 0 600px;
+        align-items: center;
+        gap: 50px;
+        
+
+    }
 }
 
 .container {
     display: flex;
     gap: 30px;
+  
 }
 
+@media(min-width: 750px){
+    
+    title-text{
+        padding-top: 150px;
+        font-size: 80px;
+    }
+}
 
+@media(min-width: 750px){
+    
+    instructions-comp{
+        padding-top: 150px;
+        font-size: 80px;
+    }
+}
 /*# sourceMappingURL=index.30ff162a.css.map */

@@ -2,39 +2,98 @@ export function counterComp() {
     class Counter extends HTMLElement {
         constructor() {
             super();
+        }
+
+        connectedCallback() {
             this.render();
         }
 
         render() {
             this.attachShadow({ mode: "open" });
-            
-            const div = document.createElement("div")
-            div.className = "root"
+            this.counter();
+            const div = document.createElement("div");
+            div.className = "root";
 
             div.innerHTML = `
-                <span>Presioná jugar y elegí: piedra, papel o tijera antes de que pasen los 3 segundos.</span>
-                ${this.getStyle()}
-            `
-            this.shadowRoot.appendChild(div)
+            <div class="clock">
+	        <span class="seconds"></span>
+            </div>
+            
+            ${this.getStyle()}    
+            `;
+            this.shadowRoot.appendChild(div);
         }
 
-        getStyle(){
+        getStyle() {
             return `
             <style>
-                .root {
-                margin: 0;
-                color: #000000;
-                font-family: 'Caveat', cursive;
-                font-size: 45px;
-                font-weight: bold; 
-                text-align: center;
- 
+                .clock {
+	        width: 300px;
+	        height: 300px;
+	        border-radius: 50%;
+	        background-color: lightgrey;
+	        margin: auto;
+            font-family: 'Odibee Sans', cursive;
             }
+        
+                .seconds {
+	        display: block;
+	        width: 100%;
+	        margin: auto;
+	        padding-top: 60px;
+	        text-align: center;
+	        font-size: 150px;
+            }
+          
             
             </style>
 
-            `
+            `;
+        }
+        counter() {
+            let counter = 4;
+            let interval = setInterval(() => {
+                counter--;
+                if (counter == 3) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "3";
+                    
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#F8C471"
+                } else if (counter == 2) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "2";
+
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#2ECC71 "
+                } else if (counter == 1) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "1";
+
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#D2B4DE"
+
+                } else if (counter == 0) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.innerHTML = `
+                    <span class="time">Time's Over</span>
+                    <style>
+                        .time {
+                    font-size: 70px;
+                    color: crimson;
+                    }
+                    </style>
+                    `;
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#F1948A"
+                    
+                } else {
+                    clearInterval(interval);
+                }
+            }, 1000);
+            return interval;
         }
     }
     customElements.define("counter-comp", Counter);
 }
+

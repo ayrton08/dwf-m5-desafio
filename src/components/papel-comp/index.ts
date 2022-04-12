@@ -12,6 +12,8 @@ export function papel() {
 
             const div = document.createElement("img");
             div.src = image;
+            div.style.width = "85px"
+            div.style.height = "160px"
 
             this.shadowRoot.appendChild(div);
         }
