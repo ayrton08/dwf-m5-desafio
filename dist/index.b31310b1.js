@@ -523,13 +523,20 @@ const routes = [
         component: _empate.empate
     }, 
 ];
+const BASE_PATH = "/dwf-m5-desafio";
+function isGithubPages() {
+    return location.host.includes("github.io");
+}
 function initRouter(container) {
     function goTo(path, data) {
-        history.pushState(data, "", path);
+        const completePath = isGithubPages() ? BASE_PATH + path : path;
+        history.pushState(data, "", completePath);
         handleRoute(path);
     }
     function handleRoute(route) {
-        for (const r of routes)if (r.path.test(route)) {
+        console.log("El handleroute recibio una nueva ruta", route);
+        const newRoute = isGithubPages() ? route.replace(BASE_PATH, "") : route;
+        for (const r of routes)if (r.path.test(newRoute)) {
             const el = r.component({
                 goTo: goTo
             });
@@ -544,19 +551,19 @@ function initRouter(container) {
     };
 }
 
-},{"./pages/welcome/index":"bFh5y","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","./pages/instructions":"iaM8p","./pages/play/index":"dLRVB","./pages/result/ganaste":"fgnxi","./pages/result/perdiste":"bargu","./pages/result/empate":"en76d","./pages/jugada/index":"hXoBe"}],"bFh5y":[function(require,module,exports) {
+},{"./pages/instructions":"iaM8p","./pages/welcome/index":"bFh5y","./pages/play/index":"dLRVB","./pages/result/ganaste":"fgnxi","./pages/result/perdiste":"bargu","./pages/result/empate":"en76d","./pages/jugada/index":"hXoBe","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"iaM8p":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "welcomePage", ()=>welcomePage
+parcelHelpers.export(exports, "instructionsPage", ()=>instructionsPage
 );
-function welcomePage(params) {
+function instructionsPage(params) {
     const div = document.createElement("div");
     div.className = "contenedor";
-    div.innerHTML = `\n        <title-text></title-text>\n        <button-start></button-start>\n        <div class="container">\n        <piedra-comp></piedra-comp>\n        <papel-comp></papel-comp>\n        <tijera-comp></tijera-comp>\n        </div>\n       \n    `;
-    const button = div.querySelector("button-start");
+    div.innerHTML = `\n        <instructions-comp></instructions-comp>\n        <button-play></button-play>\n        <div class="container">\n        <piedra-comp></piedra-comp>\n        <papel-comp></papel-comp>\n        <tijera-comp></tijera-comp>\n        </div>\n    `;
+    const button = div.querySelector("button-play");
     button.addEventListener("click", (event)=>{
         event.preventDefault();
-        params.goTo("/instructions");
+        params.goTo("/play");
     });
     return div;
 }
@@ -593,19 +600,19 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"iaM8p":[function(require,module,exports) {
+},{}],"bFh5y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "instructionsPage", ()=>instructionsPage
+parcelHelpers.export(exports, "welcomePage", ()=>welcomePage
 );
-function instructionsPage(params) {
+function welcomePage(params) {
     const div = document.createElement("div");
     div.className = "contenedor";
-    div.innerHTML = `\n        <instructions-comp></instructions-comp>\n        <button-play></button-play>\n        <div class="container">\n        <piedra-comp></piedra-comp>\n        <papel-comp></papel-comp>\n        <tijera-comp></tijera-comp>\n        </div>\n    `;
-    const button = div.querySelector("button-play");
+    div.innerHTML = `\n        <title-text></title-text>\n        <button-start></button-start>\n        <div class="container">\n        <piedra-comp></piedra-comp>\n        <papel-comp></papel-comp>\n        <tijera-comp></tijera-comp>\n        </div>\n       \n    `;
+    const button = div.querySelector("button-start");
     button.addEventListener("click", (event)=>{
         event.preventDefault();
-        params.goTo("/play");
+        params.goTo("/instructions");
     });
     return div;
 }
@@ -729,7 +736,7 @@ function play(params) {
     return div;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","../../state":"28XHA"}],"28XHA":[function(require,module,exports) {
+},{"../../state":"28XHA","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"28XHA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state
@@ -796,7 +803,7 @@ function ganaste(params) {
     return div;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","url:../../images/ganaste.svg":"93kOd"}],"93kOd":[function(require,module,exports) {
+},{"url:../../images/ganaste.svg":"93kOd","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"93kOd":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('Z8Pbo') + "ganaste.8fda546e.svg";
 
 },{"./helpers/bundle-url":"8YnfL"}],"8YnfL":[function(require,module,exports) {
@@ -855,7 +862,7 @@ function perdiste(params) {
     return div;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","url:../../images/perdiste.svg":"53PIf"}],"53PIf":[function(require,module,exports) {
+},{"url:../../images/perdiste.svg":"53PIf","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"53PIf":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('Z8Pbo') + "perdiste.3c175a61.svg";
 
 },{"./helpers/bundle-url":"8YnfL"}],"en76d":[function(require,module,exports) {
