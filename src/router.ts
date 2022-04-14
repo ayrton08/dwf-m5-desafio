@@ -4,7 +4,7 @@ import { play } from "./pages/play/index";
 import { ganaste } from "./pages/result/ganaste";
 import { perdiste } from "./pages/result/perdiste";
 import { empate } from "./pages/result/empate";
-import { jugada } from "./pages/jugada";
+import { jugada } from "./pages/jugada/index";
 
 
 

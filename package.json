@@ -1,7 +1,6 @@
 {
   "name": "dwf-m5-desafio",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/ayrton08/dwf-m5-desafio.git",
   "author": "ayrton juarez <ayrtonjuarez90@gmail.com>",
   "license": "MIT",
@@ -11,6 +10,10 @@
   },
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "build": "parcel build ./src/index.html --dist-dir build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

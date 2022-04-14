@@ -492,7 +492,7 @@ var _index1 = require("./pages/play/index");
 var _ganaste = require("./pages/result/ganaste");
 var _perdiste = require("./pages/result/perdiste");
 var _empate = require("./pages/result/empate");
-var _jugada = require("./pages/jugada");
+var _index2 = require("./pages/jugada/index");
 const routes = [
     {
         path: /\/welcome/,
@@ -512,7 +512,7 @@ const routes = [
     },
     {
         path: /\/result\/jugada/,
-        component: _jugada.jugada
+        component: _index2.jugada
     },
     {
         path: /\/result\/ganaste/,
@@ -544,7 +544,7 @@ function initRouter(container) {
     };
 }
 
-},{"./pages/welcome/index":"bFh5y","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","./pages/instructions":"iaM8p","./pages/play/index":"dLRVB","./pages/result/ganaste":"fgnxi","./pages/result/perdiste":"bargu","./pages/result/empate":"en76d","./pages/jugada":"hXoBe"}],"bFh5y":[function(require,module,exports) {
+},{"./pages/welcome/index":"bFh5y","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","./pages/instructions":"iaM8p","./pages/play/index":"dLRVB","./pages/result/ganaste":"fgnxi","./pages/result/perdiste":"bargu","./pages/result/empate":"en76d","./pages/jugada/index":"hXoBe"}],"bFh5y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "welcomePage", ()=>welcomePage
@@ -670,16 +670,29 @@ function play(params) {
         event.preventDefault();
         piedra.style.opacity = "0.4";
         tijera.style.opacity = "0.4";
-        const resultado = _state.state.whoWins("papel", jugadaMaquina());
+        const playMaquina = jugadaMaquina();
+        const resultado = _state.state.whoWins("papel", playMaquina);
         setTimeout(()=>{
             if (resultado === "gane") {
                 _state.state.win();
-                return params.goTo(`/result/${history.state.resultado}`);
+                return params.goTo("/result/jugada", {
+                    resultado: "ganaste",
+                    player: "papel",
+                    machine: playMaquina
+                });
             }
-            if (resultado === "empate") return params.goTo("/result/empate");
+            if (resultado === "empate") return params.goTo("/result/jugada", {
+                resultado: "empate",
+                player: "papel",
+                machine: playMaquina
+            });
             else {
                 _state.state.lost();
-                return params.goTo("/result/perdiste");
+                return params.goTo("/result/jugada", {
+                    resultado: "perdiste",
+                    player: "papel",
+                    machine: playMaquina
+                });
             }
         }, 700);
     });
@@ -687,16 +700,29 @@ function play(params) {
         event.preventDefault();
         papel.style.opacity = "0.4";
         piedra.style.opacity = "0.4";
-        const resultado = _state.state.whoWins("tijera", jugadaMaquina());
+        const playMaquina = jugadaMaquina();
+        const resultado = _state.state.whoWins("tijera", playMaquina);
         setTimeout(()=>{
             if (resultado === "gane") {
                 _state.state.win();
-                return params.goTo("/result/ganaste");
+                return params.goTo("/result/jugada", {
+                    resultado: "ganaste",
+                    player: "tijera",
+                    machine: playMaquina
+                });
             }
-            if (resultado === "empate") return params.goTo("/result/empate");
+            if (resultado === "empate") return params.goTo("/result/jugada", {
+                resultado: "empate",
+                player: "tijera",
+                machine: playMaquina
+            });
             else {
                 _state.state.lost();
-                return params.goTo("/result/perdiste");
+                return params.goTo("/result/jugada", {
+                    resultado: "perdiste",
+                    player: "tijera",
+                    machine: playMaquina
+                });
             }
         }, 700);
     });
@@ -854,7 +880,7 @@ function empate(params) {
     return div;
 }
 
-},{"url:../../images/ganaste.svg":"93kOd","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","url:../../images/giphy.gif":"43gMO"}],"43gMO":[function(require,module,exports) {
+},{"url:../../images/ganaste.svg":"93kOd","url:../../images/giphy.gif":"43gMO","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"43gMO":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('Z8Pbo') + "giphy.d20f452e.gif";
 
 },{"./helpers/bundle-url":"8YnfL"}],"hXoBe":[function(require,module,exports) {
@@ -862,22 +888,26 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "jugada", ()=>jugada
 );
+var _state = require("../../state");
 function jugada(params) {
     const div = document.createElement("div");
     div.className = "container-jugada";
-    console.log(history.state.player);
-    console.log(history.state.machine);
-    console.log(history.state.resultado);
     const jugada1 = {
         papel: `<papel-comp></papel-comp>`,
         piedra: `<piedra-comp></piedra-comp>`,
         tijera: `<tijera-comp></tijera-comp>`
     };
-    div.innerHTML = `\n            ${jugada1[history.state.machine]}\n            ${jugada1[history.state.player]}\n            `;
+    div.innerHTML = `\n    ${jugada1[history.state.machine]}\n    ${jugada1[history.state.player]}\n    `;
+    div.firstElementChild.className = "maquina";
+    setTimeout(()=>{
+        if (history.state.resultado === "ganaste") return params.goTo("/result/ganaste", history.state);
+        if (history.state.resultado === "perdiste") return params.goTo("/result/perdiste", history.state);
+        if (history.state.resultado === "empate") return params.goTo("/result/empate", history.state);
+    }, 2000);
     return div;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"3QvFM":[function(require,module,exports) {
+},{"../../state":"28XHA","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"3QvFM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "titleText", ()=>titleText

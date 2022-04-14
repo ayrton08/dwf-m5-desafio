@@ -1,9 +1,8 @@
 import { state } from "../../state";
 
 export function play(params) {
-    
     function redireccionar() {
-        if(location.pathname === "/play"){
+        if (location.pathname === "/play") {
             params.goTo("/instructions");
         }
     }
@@ -31,75 +30,110 @@ export function play(params) {
     const piedra = div.querySelector("piedra-comp");
     const papel = div.querySelector("papel-comp");
     const tijera = div.querySelector("tijera-comp");
-    
-    
+
     piedra.addEventListener("click", (event) => {
         event.preventDefault();
 
-        papel.style.opacity = "0.4"
-        tijera.style.opacity = "0.4"
-        
-        const playMaquina = jugadaMaquina()
+        papel.style.opacity = "0.4";
+        tijera.style.opacity = "0.4";
+
+        const playMaquina = jugadaMaquina();
 
         const resultado = state.whoWins("piedra", playMaquina);
-        setTimeout(()=>{
-
+        setTimeout(() => {
             if (resultado === "gane") {
                 state.win();
-                return params.goTo("/result/jugada",{resultado:"ganaste",player:"piedra",machine:playMaquina});
-
+                return params.goTo("/result/jugada", {
+                    resultado: "ganaste",
+                    player: "piedra",
+                    machine: playMaquina,
+                });
             }
             if (resultado === "empate") {
-                return params.goTo("/result/jugada",{resultado:"empate",player:"piedra",machine:playMaquina});
+                return params.goTo("/result/jugada", {
+                    resultado: "empate",
+                    player: "piedra",
+                    machine: playMaquina,
+                });
             } else {
                 state.lost();
-                return params.goTo("/result/jugada",{resultado:"perdiste",player:"piedra",machine:playMaquina});
+                return params.goTo("/result/jugada", {
+                    resultado: "perdiste",
+                    player: "piedra",
+                    machine: playMaquina,
+                });
             }
-        },700)
+        }, 700);
     });
 
     papel.addEventListener("click", (event) => {
         event.preventDefault();
-        
-        piedra.style.opacity = "0.4"
-        tijera.style.opacity = "0.4"
-        
-        const resultado = state.whoWins("papel", jugadaMaquina());
-        setTimeout(()=>{
 
+        piedra.style.opacity = "0.4";
+        tijera.style.opacity = "0.4";
+
+        const playMaquina = jugadaMaquina();
+
+        const resultado = state.whoWins("papel", playMaquina);
+        setTimeout(() => {
             if (resultado === "gane") {
                 state.win();
-                return params.goTo(`/result/${history.state.resultado}`);
+                return params.goTo("/result/jugada", {
+                    resultado: "ganaste",
+                    player: "papel",
+                    machine: playMaquina,
+                });
             }
             if (resultado === "empate") {
-                return params.goTo("/result/empate");
+                return params.goTo("/result/jugada", {
+                    resultado: "empate",
+                    player: "papel",
+                    machine: playMaquina,
+                });
             } else {
                 state.lost();
-                return params.goTo("/result/perdiste");
+                return params.goTo("/result/jugada", {
+                    resultado: "perdiste",
+                    player: "papel",
+                    machine: playMaquina,
+                });
             }
-        },700)
+        }, 700);
     });
 
     tijera.addEventListener("click", (event) => {
         event.preventDefault();
-        
-        papel.style.opacity = "0.4"
-        piedra.style.opacity = "0.4"
 
-        const resultado = state.whoWins("tijera", jugadaMaquina());
-        setTimeout(()=>{
+        papel.style.opacity = "0.4";
+        piedra.style.opacity = "0.4";
 
+        const playMaquina = jugadaMaquina();
+
+        const resultado = state.whoWins("tijera", playMaquina);
+        setTimeout(() => {
             if (resultado === "gane") {
                 state.win();
-                return params.goTo("/result/ganaste");
+                return params.goTo("/result/jugada", {
+                    resultado: "ganaste",
+                    player: "tijera",
+                    machine: playMaquina,
+                });
             }
             if (resultado === "empate") {
-                return params.goTo("/result/empate");
+                return params.goTo("/result/jugada", {
+                    resultado: "empate",
+                    player: "tijera",
+                    machine: playMaquina,
+                });
             } else {
                 state.lost();
-                return params.goTo("/result/perdiste");
+                return params.goTo("/result/jugada", {
+                    resultado: "perdiste",
+                    player: "tijera",
+                    machine: playMaquina,
+                });
             }
-        },700)
+        }, 700);
     });
 
     return div;
