@@ -43,29 +43,21 @@ const routes = [
 
 const BASE_PATH = "/dwf-m5-desafio";
 
-function isGithubPages() {
-  return location.host.includes("github.io");
-}
-
 export function initRouter(container: Element) {
     
     
     
     function goTo(path,data) {
-
-        const completePath = isGithubPages() ? BASE_PATH + path : path;
         
-        history.pushState(data, "", completePath);
+        history.pushState(data, "", path);
         handleRoute(path);
     }
 
     function handleRoute(route) {
         console.log("El handleroute recibio una nueva ruta",route)
         
-        const newRoute = isGithubPages() ? route.replace(BASE_PATH, "") : route;
-        
         for (const r of routes) {
-            if (r.path.test(newRoute)) {
+            if (r.path.test(route)) {
                 const el = r.component({ goTo: goTo });
 
                 if (container.firstChild) {
@@ -82,6 +74,9 @@ export function initRouter(container: Element) {
     } else {
         handleRoute(location.pathname);
     }
+    if (location.host.includes(".github.io")) {
+        goTo("dwf-m5-desafio/welcome",{});
+      }
     
     window.onpopstate = (event) => {
         handleRoute(location.pathname);
