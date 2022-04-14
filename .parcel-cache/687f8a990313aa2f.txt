@@ -1,4 +1,18 @@
-18413
+18622
+74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\zipObject.js132931392381660000 0
+61C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache132944263625556503 1
+87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-ordered-values\types\lib132940197933729512 1
+77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\isObjectLike.js132931392381660000 0
+76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss\lib\parser.js132932019080530000 0
+92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\stylehacks\src\plugins\leadingStar.js132932019916900000 0
+63C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mdn-data132940196436697198 1
+86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\weak-lru-cache\rollup.config.js132931386630950000 0
+70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mkdirp\index.js132932018940650000 0
+76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\node-forge\lib\des.js132932019024640000 0
+84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\string\bold.js132932019105060000 0
+108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTitleElement-impl.js132932019575500000 0
+74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\assert\package.json132932019845820000 0
+58C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ini132941032060770791 1
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gbytesicon.h132612604640000000 0
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\http-signature\node_modules\.bin\sshpk-conv132944257537527264 0
 125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\uncss\node_modules\postcss-selector-parser\dist\selectors\attribute.js132932019514310000 0
@@ -15,7 +29,7 @@
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\generated\HTMLOptionElement.js132932019575500000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\path-browserify\test\test-path-join.js132932019870720000 0
 67C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\set-blocking132941032075191326 1
-54C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\package.json132944259436180169 0
+54C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\package.json132944323516341419 0
 64C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\src132941032081611312 1
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssom\lib\CSSStyleSheet.js132932019823070000 0
 62C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\foreach132940196331629838 1
@@ -25,6 +39,7 @@
 52C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\.gitignore132944249577397398 0
 65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\dist\index.30ff162a.css132944234847364169 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nan\nan_private.h132931386574270000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\09132944289556845368 1
 64C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lru-cache132940196433889940 1
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-ordered-values\types\rules\listStyle.d.ts132932019740580000 0
 114C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-scope\node_modules\postcss\lib\stringify.js132932019355200000 0
@@ -44,7 +59,7 @@
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\svgo\plugins\removeComments.js132931386324820000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\regex-not\node_modules\is-extendable132940196580990166 1
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\hash.js\.travis.yml132932020098770000 0
-55C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\src\router.ts132944197059586471 0
+55C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\src\router.ts132944304935829345 0
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-callable\CHANGELOG.md132932020113970000 0
 62C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\timsort132940196608213860 1
 63C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\make-dir132944257440247561 1
@@ -65,7 +80,7 @@
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\watcher\src\watchman\IPC.hh132932018927170000 0
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-scope\node_modules\ansi-styles132940196579551728 1
 68C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\bytes\LICENSE132932019063130000 0
-47C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build132944259789794078 1
+47C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build132944305104914463 1
 68C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\src\pages\result\empate.ts132942006626780000 0
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssnano-utils\types132940196964610854 1
 70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\first.js132931392381660000 0
@@ -87,7 +102,7 @@
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2017\thisStringValue.js132932020104820000 0
 65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\icss-utils132940196386589058 1
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\types\lib\converters\toBlock.js132932019389800000 0
-54C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules132944257582684680 1
+54C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules132944263625556503 1
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\csso\lib\compress.js132931386480790000 0
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\lib\_jsx.js132932019155660000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\utility-types\dist\aliases-and-guards.js.map132931386547670000 0
@@ -372,6 +387,7 @@
 62C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\src\images\fondo.png132941024596220219 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\ParentNode-impl.js132932019575500000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\symbol\unscopables.js132932019105060000 0
+183C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\pack\pack-2506b0e3e6584db7ae1e85c80a34df923a8265a9.idx132944263916577599 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\terser\node_modules\.bin\acorn132944257566960317 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\is-pure.js132932019105060000 0
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\src\components\button-start132941034173947130 1
@@ -408,14 +424,6 @@
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\browserify-cipher\README.md132932019995140000 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\term-size\index.js132931371338330000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\lsl.js132932019535750000 0
-77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\entriesIn.js132931392381660000 0
-82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\hash.js\lib\hash\sha\512.js132932020098770000 0
-79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\which-typed-array\.nycrc132932020099890000 0
-74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\yaml\browser\seq.js132931386613320000 0
-98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\array\virtual\find-last.js132932019105060000 0
-62C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-glob132940196416742720 1
-122C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\foo132940198134106034 1
-66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@jridgewell132940195360715691 1
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\string\virtual\ends-with.js132932019105060000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\wrapperReverse.js132931392381660000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\proposals\seeded-random.js132932019105060000 0
@@ -520,6 +528,7 @@
 124C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\uncss\node_modules\postcss-selector-parser\dist\util\stripComments.js132932019514310000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\src\components\button-start\index.ts132941831070296972 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules\build\css-loader-core\loader.js132932019090050000 0
+135C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\piedra.c88f7ccf.svg132944305205630265 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\universalify\index.js132944256684090000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\src\components\button-playagain\index.ts132941230629161651 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\tar-fs\test\fixtures\e\file132941030867190000 0
@@ -540,6 +549,14 @@
 70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lmdb-store\test132940197225372651 1
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\divide.js132931392381660000 0
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\svgo\lib\xast.js132931386324820000 0
+77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\entriesIn.js132931392381660000 0
+82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\hash.js\lib\hash\sha\512.js132932020098770000 0
+79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\which-typed-array\.nycrc132932020099890000 0
+74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\yaml\browser\seq.js132931386613320000 0
+98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\array\virtual\find-last.js132932019105060000 0
+62C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-glob132940196416742720 1
+122C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\foo132940198134106034 1
+66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@jridgewell132940195360715691 1
 63C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@nodelib132940195360765694 1
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\atelier-forest-dark.css132932019535750000 0
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-values\src\index.js132932019363080000 0
@@ -695,6 +712,7 @@
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\punycode\punycode.es6.js132932019818750000 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\matchesselector.js132940194880210000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\node-forge\lib\sha1.js132932019024640000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\04132944289534042770 1
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\serve-handler\LICENSE132932018956870000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\regex-not\node_modules132940195482587770 1
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domexception\lib\DOMException-impl.js132932019823300000 0
@@ -731,6 +749,7 @@
 125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\uncss\node_modules\postcss-selector-parser\dist\selectors\className.js132932019514310000 0
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\which-boxed-primitive\LICENSE132932020157160000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssstyle\lib\properties\width.js132932019826060000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\e0\dfb0e84779931a884cef5148dd72ce228fa8dc132944289539416121 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\xml-name-validator\LICENSE.txt132932019843730000 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\normalize-url\package.json132932019937090000 0
 68C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\urix\index.js132932019798670000 0
@@ -767,6 +786,7 @@
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\utility-types\dist\index.js.map132931386547670000 0
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\to-regex-range132940196610992308 1
 65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\dist\giphy.d20f452e.gif132944232617614862 0
+142C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\pre-push.sample132944263735955729 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\uri-js\dist\esnext\schemes\urn.js132932020082270000 0
 66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\assert-plus132940196219121603 1
 110C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-scope\node_modules\postcss\package.json132932019355200000 0
@@ -865,14 +885,14 @@
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\yallist\yallist.js132932019116690000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssnano-utils\types\index.d.ts132932019546120000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\stream.js132940194880210000 0
+67C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\wcwidth\docs132940197441679525 1
+71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2017132940197089360846 1
+94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\browser\parser\index.js132932019575500000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\grayscale.css132932019535750000 0
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\util\README.md132932019927140000 0
 59C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\base132940196228031560 1
 114C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-json\node_modules\json5\lib\register.js132931386304200000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\regions\BH.js132940194880210000 0
-67C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\wcwidth\docs132940197441679525 1
-71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2017132940197089360846 1
-94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\browser\parser\index.js132932019575500000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\solarized-dark.css132932019535750000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\svgo\plugins\removeUselessStrokeAndFill.js132931386324820000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\hash.js\lib\hash\sha\256.js132932020098770000 0
@@ -911,6 +931,10 @@
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\utility-types\dist\mapped-types.js.map132931386547670000 0
 112C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-modules-loader-core\node_modules\postcss\package.json132932019084820000 0
 61C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\braces132940196229041574 1
+105C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nanomatch\node_modules\extend-shallow\package.json132932019151710000 0
+78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\object.assign\.eslintrc132932020120350000 0
+125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\are-we-there-yet\node_modules\readable-stream\lib\_stream_transform.js132932019070920000 0
+75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\process-nextick-args132940196541051104 1
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\browserify-zlib\lib\index.js132932019845680000 0
 106C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\traversal\TreeWalker-impl.js132932019575500000 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\browserify-cipher132940196238032410 1
@@ -918,10 +942,6 @@
 122C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages132944257548677902 0
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\events\test132940196792866499 1
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\ts41\kebab-case.d.ts132931386441000000 0
-105C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nanomatch\node_modules\extend-shallow\package.json132932019151710000 0
-78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\object.assign\.eslintrc132932020120350000 0
-125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\are-we-there-yet\node_modules\readable-stream\lib\_stream_transform.js132932019070920000 0
-75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\process-nextick-args132940196541051104 1
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\lib\is-url.js132932018927100000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\browser-process-hrtime132940196231310717 1
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\instance\code-point-at.js132932019105060000 0
@@ -1663,6 +1683,7 @@
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\minimist\test\all_bool.js132932019037260000 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\object-assign\package.json132941030888110000 0
 65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-check132940196611012298 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\20132944300593690243 1
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\semver\range.bnf132931371323270000 0
 110C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\object-get-own-property-descriptor.js132932019105060000 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\fast-json-stable-stringify132940196316649859 1
@@ -2000,19 +2021,6 @@
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-boolean-object\index.js132932020159510000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\json-parse-even-better-errors\package.json132931386634050000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\css-sel3.js132940194880210000 0
-74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\zipObject.js132931392381660000 0
-87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-ordered-values\types\lib132940197933729512 1
-77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\isObjectLike.js132931392381660000 0
-76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss\lib\parser.js132932019080530000 0
-92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\stylehacks\src\plugins\leadingStar.js132932019916900000 0
-63C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mdn-data132940196436697198 1
-86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\weak-lru-cache\rollup.config.js132931386630950000 0
-70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mkdirp\index.js132932018940650000 0
-76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\node-forge\lib\des.js132932019024640000 0
-84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\string\bold.js132932019105060000 0
-108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTitleElement-impl.js132932019575500000 0
-74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\assert\package.json132932019845820000 0
-58C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ini132941032060770791 1
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-accessor-descriptor132940196401669024 1
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\src\TargetDescriptor.schema.js132932018997660000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\src\_async_generator.js132932019155660000 0
@@ -2051,6 +2059,7 @@
 68C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-descriptor132940196405489046 1
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\number\virtual\to-precision.js132932019105060000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\xxhash-wasm\esm\xxhash-wasm.js.map132931386371620000 0
+134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.8454bb1f.css132944305205474005 0
 103C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\glib\gdir.h132612604640000000 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\reporter-dev-server\package.json132932018926400000 0
 61C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-nan132940196419002728 1
@@ -2125,6 +2134,7 @@
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-typed-array\test\index.js132932020083730000 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\snapdragon\lib\position.js132932019164460000 0
 66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\json-schema132940196427319184 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\3d132944289555595430 1
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\HTMLLinkElement-impl.js132932019575500000 0
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\generated\ShadowRoot.js132932019575500000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\which-typed-array\test132940197445999545 1
@@ -2208,6 +2218,7 @@
 61C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\parse5132940196488960733 1
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\http-proxy-middleware\dist\router.d.ts132932018953990000 0
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\string.prototype.trimstart\CHANGELOG.md132932020119430000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\a0\5cbe69c22e752933c59257d239dd369dc0549e132944289549908267 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\descriptors.js132932019105060000 0
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-values\node_modules\postcss\README.md132932019355200000 0
 128C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased\package.json132932019153510000 0
@@ -2245,6 +2256,7 @@
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\get-substitution.js132932019105060000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\hsp.js132932019535750000 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2021\OrdinaryCreateFromConstructor.js132932020104820000 0
+69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.be3f7c82.js.map132944305104594495 0
 106C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-selector-parser\dist\selectors\universal.js132932019512720000 0
 65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\micromatch132940196437929849 1
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\domcontentloaded.js132940194880210000 0
@@ -3703,6 +3715,7 @@
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2020\IterableToList.js132932020104820000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\utils-merge\README.md132932019055020000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es6-object-assign\README.md132932019981040000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\26132944289356796608 1
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\assignWith.js132931392381660000 0
 70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\uncss\bin\uncss132932019269540000 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\helper-module-imports132940196024350739 1
@@ -3730,6 +3743,7 @@
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_createBind.js132931392381660000 0
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\har-schema\lib\cache.json132932019959890000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\utility-types\dist\functional-helpers.js.map132931386547670000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\43132944289555282764 1
 105C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\glib\gstdio.h132612604640000000 0
 127C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\lazy-result.js132932019355200000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\source-map-resolve\changelog.md132932019440680000 0
@@ -3921,6 +3935,7 @@
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\namer-default\package.json132932018970270000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\uri-js\dist\esnext\index.js.map132932020082270000 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\tar-stream\LICENSE132941030873760000 0
+132C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\description132944263735525687 0
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\icss-utils\node_modules\postcss\lib\map-generator.js132932019090310000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\public-encrypt\test\rsa.pass.priv132932020011090000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.typed-array.from.js132932019105060000 0
@@ -4247,6 +4262,7 @@
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\requires-port\.travis.yml132932019243810000 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\slice-ansi\license132932019172430000 0
 125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\uncss\node_modules\postcss-selector-parser\dist\selectors\container.js132932019514310000 0
+145C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\remotes\origin\main132944289560807874 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\regenerator-runtime\path.js132931386354810000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\locate-path\readme.md132944256680820000 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-selector-tokenizer\lib\uni-regexp.js132932019795060000 0
@@ -4401,6 +4417,7 @@
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\public-encrypt\package.json132932020011090000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\strip-ansi\node_modules\ansi-regex132940196653573219 1
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\url132940197708939546 1
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\3d\0f816ca35d8ca86e6f96943ae27f652e282128132944289555282764 0
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\source\async-return-type.d.ts132931386441000000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\regions\AU.js132940194880210000 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\source\conditional-except.d.ts132931386441000000 0
@@ -4412,6 +4429,7 @@
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\syntax\config\walker.js132931386474370000 0
 66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@types\node132940196019881776 1
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\source\conditional-pick.d.ts132931386441000000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\35\dbbadb512f7303aee71203df746923d0550593132944289538588467 0
 112C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-local-by-default\node_modules\ansi-styles132940196588854861 1
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\brown-paper.css132932019535750000 0
 110C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none132940197993492718 1
@@ -4435,8 +4453,8 @@
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\source\iterable-element.d.ts132931386441000000 0
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\source\literal-union.d.ts132931386441000000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\posthtml\node_modules\entities132940196583963507 1
-74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\side-channel\.nycrc132932020124950000 0
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\source\merge-exclusive.d.ts132931386441000000 0
+74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\side-channel\.nycrc132932020124950000 0
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\strip-ansi\index.js132932019065480000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2015\thisBooleanValue.js132932020104820000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\type-fest\source\merge.d.ts132931386441000000 0
@@ -4772,6 +4790,7 @@
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\number\index.js132932019105060000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\terser\lib\equivalent-to.js132931386340310000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2017\OrdinarySetPrototypeOf.js132932020104820000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\a7132944289544103654 1
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\next.js132931392381660000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\terser\lib\minify.js132931386340310000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\pbkdf2\lib\default-encoding.js132932020039070000 0
@@ -4813,6 +4832,7 @@
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2017\DaysInYear.js132932020104820000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\typed-array\set.js132932019105060000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2018\UTF16Encoding.js132932020104820000 0
+140C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\heads\gh-pages132944305213755297 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\serve-handler\src132940197357583525 1
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\term-size\vendor132940197395699490 1
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\libexif\exif-data-type.h132612604640000000 0
@@ -4940,6 +4960,7 @@
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mkdirp-classic\LICENSE132941030867740000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\string.prototype.trimend\.nycrc132932020126510000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@types\node\stream\consumers.d.ts132932019384460000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\19132944289356015276 1
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\symbol\index.js132932019105060000 0
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@types\node\trace_events.d.ts132932019384460000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\src\_interop_require_default.js132932019155660000 0
@@ -5426,6 +5447,7 @@
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\user-select-none.js132940194880210000 0
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\glib\gdataset.h132612604640000000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\css-grid.js132940194880210000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\b9\be480aca2cb6469b824d4e74f0c900e16e987b132944289534838417 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\source-map\README.md132931386467190000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\email-addresses\test\is_email.js132944256692260000 0
 114C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@jridgewell\sourcemap-codec\dist\types\sourcemap-codec.d.ts132932019934130000 0
@@ -5483,6 +5505,7 @@
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\orc-0.4\orc-test132612604640000000 1
 121C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\gdk-pixbuf-2.0\gdk-pixbuf\gdk-pixbuf.h132612604640000000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\object\get-own-property-names.js132932019105060000 0
+125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\info132944263736145695 1
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\relateurl\lib\parse\index.js132932019269830000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\snapdragon\package.json132932019164460000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\snapdragon\node_modules\source-map\CHANGELOG.md132932019297350000 0
@@ -6024,6 +6047,7 @@
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\lib\_assert_this_initialized.js132932019155660000 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\picomatch\LICENSE132932019171160000 0
 121C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-local-by-default\node_modules\postcss\CHANGELOG.md132932019355200000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\b8\d038e069d8a50f28b8340d7cb9d6294c3a0a8d132944289542541180 0
 105C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\libxml2\libxml\xlink.h132612604640000000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\node_modules\semver\LICENSE132941030860300000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\serve-handler\node_modules\mime-db\db.json132932019252440000 0
@@ -6485,6 +6509,7 @@
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\map\key-of.js132932019105060000 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gdrive.h132612604640000000 0
 119C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gdtlsclientconnection.h132612604640000000 0
+127C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\config132944305208911497 0
 113C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gdtlsconnection.h132612604640000000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_hashClear.js132931392381660000 0
 119C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gdtlsserverconnection.h132612604640000000 0
@@ -6579,6 +6604,7 @@
 114C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gsettingsbackend.h132612604640000000 0
 113C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gsettingsschema.h132612604640000000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\scss\foundation.scss132932019535750000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\89132944289553536674 1
 111C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gsimpleaction.h132612604640000000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\symbol\index.js132932019105060000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\json\stringify.js132932019105060000 0
@@ -6727,6 +6753,7 @@
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_baseWhile.js132931392381660000 0
 111C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\ftoutln.h132612604640000000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\asn1\lib\ber\errors.js132932020034570000 0
+130C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\ORIG_HEAD132944305204223991 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\posthtml-render\license132932019090280000 0
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\asn1.js\lib\asn1\encoders132940198006492733 1
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\isstream\README.md132932019811090000 0
@@ -6737,6 +6764,7 @@
 111C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\ftsizes.h132612604640000000 0
 113C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-json\node_modules\json5\lib\parse.d.ts132931386304200000 0
 111C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\ftsynth.h132612604640000000 0
+140C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\update.sample132944263736125694 0
 66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\request\lib132940197356073530 1
 112C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\ftsystem.h132612604640000000 0
 112C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\navigator\NavigatorCookies-impl.js132932019575500000 0
@@ -6823,6 +6851,7 @@
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\node_modules\semver\functions\compare.js132941030860300000 0
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\node_modules\semver\functions\diff.js132941030860300000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\string\anchor.js132932019105060000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\89\91118d9a0f6f5c0ab6f3b7e2164bc9f78477ff132944289552755415 0
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\node_modules\semver\functions\eq.js132941030860300000 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\format\.npmignore132932020007400000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\sharp\node_modules\semver\functions\gte.js132941030860300000 0
@@ -7147,6 +7176,7 @@
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsbn\example.html132932020048090000 0
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\readable-stream\lib132940197352423526 1
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\instance\find-last-index.js132932019105060000 0
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.e5d94daf.js132944305205474005 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_baseLt.js132931392381660000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\readable-stream\readable.js132932019071430000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\fastest-levenshtein\package.json132932019015620000 0
@@ -7315,6 +7345,7 @@
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\public-encrypt\mgf.js132932020011090000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\public-encrypt\privateDecrypt.js132932020011090000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\string\at.js132932019105060000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\f2\a7797863c2b1e298bfa3a3586b1fd763b4d39a132944305206567744 0
 129C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules\node_modules\postcss-modules-local-by-default\package.json132932019365760000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\array\group-by.js132932019105060000 0
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\generated\CloseEvent.js132932019575500000 0
@@ -7517,6 +7548,7 @@
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\path-key\license132932019182900000 0
 105C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\posthtml\node_modules\entities\lib\decode.d.ts.map132931386652990000 0
 111C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\posthtml\node_modules\entities\lib\decode_codepoint.d.ts132931386652990000 0
+150C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\push-to-checkout.sample132944263736115700 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\babylon-walk\lib\traverse-all.js132932019731700000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\workers\lib\process\ProcessWorker.js132932018947000000 0
 115C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\posthtml\node_modules\entities\lib\decode_codepoint.d.ts.map132931386652990000 0
@@ -7846,8 +7878,8 @@
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_basePullAll.js132931392381660000 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-values\node_modules\chalk\license132931386645390000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\array\virtual\flat.js132932019105060000 0
-106C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-values\node_modules\chalk\readme.md132931386645390000 0
 112C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-js\node_modules\.bin\browserslist.cmd132944257504379443 0
+106C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-values\node_modules\chalk\readme.md132931386645390000 0
 105C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\object-property-is-enumerable.js132932019105060000 0
 109C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-values\node_modules\chalk\templates.js132931386645390000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-modules-scope\package.json132932019361750000 0
@@ -8276,6 +8308,7 @@
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-colormin\src\minifyColor.js132932019561940000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss-colormin\node_modules\.bin132944257553525339 1
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\lib\throttle.js132932018927100000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\99\5a30b549ca647309326d5119768dee9d1dcea4132944305207817743 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\performance-now\license.txt132932019817620000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\weak-map\index.js132932019105060000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\typed-array\from-async.js132932019105060000 0
@@ -8355,6 +8388,7 @@
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss\lib\postcss.js132932019080530000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\string\fixed.js132932019105060000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss\lib\postcss.mjs132932019080530000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\66132944289554958608 1
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss\lib\previous-map.d.ts132932019080530000 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss\lib\processor.d.ts132932019080530000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\postcss\lib\result.d.ts132932019080530000 0
@@ -8614,6 +8648,7 @@
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domelementtype\lib132940196981600800 1
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\path-browserify\test\test-path-isabsolute.js132932019870720000 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\defaults\node_modules\clone\package.json132932019465080000 0
+144C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\pre-rebase.sample132944263736035678 0
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\path-browserify\test\test-path-parse-format.js132932019870720000 0
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\path-browserify\test\test-path-zero-length-strings.js132932019870720000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\path-browserify\test\test-path.js132932019870720000 0
@@ -9040,6 +9075,7 @@
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\node-gyp-build-optional-packages\LICENSE132940195178140000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\array\sort.js132932019105060000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lowlight\package.json132932019521690000 0
+152C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\fsmonitor-watchman.sample132944263735865630 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\typed-array\uint32-array.js132932019105060000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\node-gyp-build-optional-packages\optional.js132940195178140000 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\syntax\node\PseudoElementSelector.js132931386474370000 0
@@ -9191,6 +9227,7 @@
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\dotenv\lib\cli-options.js132931386300210000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\des.js\test\cbc-test.js132932020085640000 0
 63C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ncp\test132940197237097560 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\61132944263979851090 1
 68C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nanomatch\lib132940197243887566 1
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssom\lib\CSSSupportsRule.js132932019823070000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\package-manager\lib\NodeResolverBase.js132932018927140000 0
@@ -9249,6 +9286,7 @@
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nanomatch\node_modules\kind-of\CHANGELOG.md132932019160740000 0
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nanomatch\node_modules\kind-of\index.js132932019160740000 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nanomatch\node_modules\kind-of\README.md132932019160740000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\65\1712a1ca90a515306fb458b13f2bc097288db4132944303767362489 0
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\core\src\config\files\index.ts132937600600630000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\htmlnano\docs\versions.json132932019072920000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nanomatch\node_modules\is-extendable\index.d.ts132932019415580000 0
@@ -9316,10 +9354,12 @@
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nan\nan_define_own_property_helper.h132931386574270000 0
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\test\BundleGraph.test.js132932018997660000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nan\nan_implementation_12_inl.h132931386574270000 0
+148C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\pre-applypatch.sample132944263735905699 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\isbl-editor-dark.css132932019535750000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\make-dir\node_modules\.bin\semver132944257547417900 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\lastIndexOfFrom.js132931392381660000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nan\nan_maybe_43_inl.h132931386574270000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\c2\16416017c68212b8fe3a09952b76d16195d1e0132944289537026021 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\htmlnano\lib\modules\removeOptionalTags.js132932019072920000 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\nan\nan_maybe_pre_43_inl.h132931386574270000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\debounce.js132931392381660000 0
@@ -9533,6 +9573,7 @@
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mdn-data\css\units.json132931386613280000 0
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\css-content-visibility.js132940194880210000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\isarray\package.json132932019272310000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\c5132944303764375036 1
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mdn-data\css\units.schema.json132931386613280000 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\NodeList-impl.js132932019575500000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\mdn-data\api\index.js132931386613280000 0
@@ -9598,6 +9639,7 @@
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash.camelcase\index.js132932019374840000 0
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-arguments\.nycrc132932020017340000 0
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\generated\PopStateEventInit.js132932019575500000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\65132944303767831233 1
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash.camelcase\LICENSE132932019374840000 0
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash.camelcase\package.json132932019374840000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\fs-extra\lib\ensure\symlink.js132944256671260000 0
@@ -9677,6 +9719,7 @@
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\escape.js132931392381660000 0
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\concat-map\index.js132932019501820000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\escapeRegExp.js132931392381660000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\9f\51fd1a7617c02a1a00eb9858f81907ccd5031b132944289551974210 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\array\virtual\find-index.js132932019105060000 0
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\extend.js132931392381660000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\capitalize.js132931392381660000 0
@@ -9861,6 +9904,7 @@
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\startCase.js132931392381660000 0
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\string.js132931392381660000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\aggregate-error.js132932019105060000 0
+137C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\perdiste.9846907e.svg132944305205474005 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\generated\HTMLHRElement.js132932019575500000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\data-urls\package.json132932019824940000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\stubObject.js132931392381660000 0
@@ -10093,6 +10137,7 @@
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_compareMultiple.js132931392381660000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_copyArray.js132931392381660000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_copyObject.js132931392381660000 0
+126C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\index132944305213130264 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_copySymbols.js132931392381660000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\http-proxy-middleware\dist\context-matcher.d.ts132932018953990000 0
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\_copySymbolsIn.js132931392381660000 0
@@ -10347,6 +10392,7 @@
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\debug\.travis.yml132932019065380000 0
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\syntax\atrule\media.js132931386474370000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\extendWith.js132931392381660000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\42\2dc674e2364cd382c92ab5aa96db92ff8e80d6132944305207505243 0
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\F.js132931392381660000 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\find.js132931392381660000 0
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\findLastKey.js132931392381660000 0
@@ -10438,6 +10484,7 @@
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\math.js132931392381660000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\helpers\getOwnPropertyDescriptor.js132932020104820000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\mergeAll.js132931392381660000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\5c132944289541916193 1
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\mergeAllWith.js132931392381660000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\htmlnano\docs\docs\030-config.md132932019072920000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\mergeWith.js132931392381660000 0
@@ -10517,6 +10564,7 @@
 71C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\set.js132931392381660000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\date\to-string.js132932019105060000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\shuffle.js132931392381660000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\cc132944263984812212 1
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\sortBy.js132931392381660000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\htmlnano\docs\docs\060-contribute.md132932019072920000 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lodash\fp\sortedIndexOf.js132931392381660000 0
@@ -10646,6 +10694,7 @@
 116C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\generated\XMLHttpRequestEventTarget.js132932019575500000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lmdb-store\package.json132932019517160000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2015\MinFromTime.js132932020104820000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\d5132944263986604299 1
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lmdb-store\util\ArrayLikeIterable.js132932019517160000 0
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\email-addresses\README.md132944256692260000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\lmdb-store\util\upgrade-lmdb.js132932019517160000 0
@@ -11073,6 +11122,7 @@
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTrackElement-impl.js132932019575500000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-boolean-object\.editorconfig132932020159510000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\math132940197696699551 1
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ca\700981b9454ec491b511256babff2068f0b173132944305207348992 0
 110C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\HTMLUnknownElement-impl.js132932019575500000 0
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\HTMLVideoElement-impl.js132932019575500000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\jsdom\lib\jsdom\living\nodes\SVGElement-impl.js132932019575500000 0
@@ -11372,6 +11422,7 @@
 66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-url\test132940197211700430 1
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-url\test\index.js132932019012440000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\browserslist\LICENSE132931386314000000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\f8\7ba69ef8bca22cf98a7f180fbf81ef9ad97840132944305207192738 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-unicode-supported\license132932019217740000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-unicode-supported\package.json132932019217740000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\is-unicode-supported\readme.md132932019217740000 0
@@ -11769,6 +11820,7 @@
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\htmlnano\docs\docs\020-usage.md132932019072920000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\htmlnano\docs\docs\040-presets.md132932019072920000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\htmlnano\docs\docs\050-modules.md132932019072920000 0
+137C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.be3f7c82.js.map132944305205474005 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\html-tags\index.js132932019816280000 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\html-tags\license132932019816280000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\html-tags\package.json132932019816280000 0
@@ -11801,6 +11853,7 @@
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\atelier-cave-dark.css132932019535750000 0
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\atelier-heath-light.css132932019535750000 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\atelier-plateau-light.css132932019535750000 0
+149C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\remotes\origin\gh-pages132944305269591890 0
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\array\to-reversed.js132932019105060000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\atelier-savanna-dark.css132932019535750000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\atelier-seaside-dark.css132932019535750000 0
@@ -11843,6 +11896,7 @@
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\srcery.css132932019535750000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\sunburst.css132932019535750000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\tomorrow-night-eighties.css132932019535750000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\90132944289538432283 1
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\string\virtual\trim.js132932019105060000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\styles\tomorrow-night.css132932019535750000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2018\SplitMatch.js132932020104820000 0
@@ -12024,6 +12078,7 @@
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\acorn\dist\acorn.mjs.map132932019637090000 0
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\python-repl.js132932019535750000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-what\lib\es\types.d.ts.map132932226823110000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\2d132944289548673019 1
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\q.js132932019535750000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\r.js132932019535750000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\expand-brackets\lib\parsers.js132932019422970000 0
@@ -12052,6 +12107,7 @@
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\tap.js132932019535750000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\tcl.js132932019535750000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\thrift.js132932019535750000 0
+120C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git132944305213911507 1
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\regions\SE.js132940194880210000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\twig.js132932019535750000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\highlight.js\lib\languages\vala.js132932019535750000 0
@@ -12212,6 +12268,7 @@
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\har-schema\lib\timings.json132932019959890000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\source-map\src\utils.js132932019016180000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\graceful-fs\clone.js132937600589630000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\2d\6b5cb2e207b364f74d16dea3a3d66e96e80c57132944289548048007 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\graceful-fs\graceful-fs.js132937600589630000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\command-exists\test\non-executable-script.js132932019029150000 0
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\graceful-fs\legacy-streams.js132937600589630000 0
@@ -12369,6 +12426,7 @@
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\function-bind\test132940197129172543 1
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\function-bind\test\index.js132932020081580000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\object\lookup-setter.js132932019105060000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\61\334b13424e17e2dc9237e33a6de1e96d5c1aa9132944305206880237 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-selector-tokenizer\lib\stringifyValues.js132932019795060000 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\fs.realpath\old.js132932019194320000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\fs.realpath\README.md132932019194320000 0
@@ -13618,6 +13676,7 @@
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\object\entries.js132932019105060000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2016\IteratorStep.js132932020104820000 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2016\MakeDate.js132932020104820000 0
+136C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\ganaste.a5669fde.svg132944305205474005 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2016\MakeTime.js132932020104820000 0
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-css\node_modules\.bin\semver.cmd132944257502639390 0
 81C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\es-abstract\2016\modulo.js132932020104820000 0
@@ -13844,6 +13903,7 @@
 106C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ansi-styles\node_modules\color-convert\CHANGELOG.md132931386391300000 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ee-first\README.md132932019466490000 0
 67C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ecc-jsbn\lib132940196977860855 1
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\09\847bcff4285b46880fe235f541454dbc0e9227132944289555907818 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\media-fragments.js132940194880210000 0
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ecc-jsbn\package.json132932020048590000 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ecc-jsbn\README.md132932020048590000 0
@@ -13889,6 +13949,7 @@
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\aggregate-error.js132932019105060000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domutils\lib\stringify.d.ts.map132931386639260000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domutils\lib\traversal.d.ts132931386639260000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\f2132944289536713403 1
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domutils\lib\traversal.js132931386639260000 0
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domhandler\lib132940196980820854 1
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domhandler\LICENSE132931386586760000 0
@@ -13925,6 +13986,7 @@
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domain-browser\README.md132932019941270000 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\css-backdrop-filter.js132940194880210000 0
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domain-browser\source\index.js132932019941270000 0
+148C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\applypatch-msg.sample132944263735545702 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\callsites\index.js132931386641550000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\domain-browser\.github\FUNDING.yml132932019941270000 0
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\dom-serializer\README.md132940195032750000 0
@@ -14174,6 +14236,7 @@
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\web.atob.js132932019105060000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\string\match-all.js132932019105060000 0
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssom\lib\MatcherList.js132932019823070000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\4f132944300587403591 1
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\actual\typed-array\find-last-index.js132932019105060000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssom\lib\MediaList.js132932019823070000 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\cssom\lib\parse.js132932019823070000 0
@@ -14344,6 +14407,7 @@
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\lexer\generic.js132931386474370000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\lexer\index.js132931386474370000 0
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\lexer\Lexer.js132931386474370000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\39\13b93089b07f5bfff7f91cce91ef5fa5801625132944289586780981 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\lexer\prepare-tokens.js132931386474370000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\available-typed-arrays\test\index.js132932020168140000 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-tree\lib\lexer\search.js132931386474370000 0
@@ -14450,6 +14514,7 @@
 113C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-modules-loader-core\node_modules\postcss\lib\vendor.js132932019084820000 0
 116C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-modules-loader-core\node_modules\postcss\lib\warn-once.js132932019084820000 0
 114C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-modules-loader-core\node_modules\postcss\lib\warning.js132932019084820000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\4f\92188265322d68af16cc68f575da4d7e288ff8132944305207505243 0
 119C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\css-modules-loader-core\node_modules\postcss\docs\source-maps.md132932019084820000 0
 106C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\helper-module-imports\lib\import-injector.js132932019781720000 0
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js132932018927100000 0
@@ -14714,6 +14779,7 @@
 82C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\object\is.js132932019105060000 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\permissions-api.js132940194880210000 0
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\global-this.js132932019105060000 0
+134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\papel.5f79bbf0.svg132944305205474005 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\object\lookup-getter.js132932019105060000 0
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\proposals\string-padding.js132932019105060000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\stable\object\lookup-setter.js132932019105060000 0
@@ -14934,6 +15000,8 @@
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.object.from-entries.js132932019105060000 0
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\shadowdom.js132940194880210000 0
 111C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.object.get-own-property-descriptor.js132932019105060000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\d5\3d1c6d01f7946bde3a694f9970ee9762be807c132944305207192738 0
+140C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\remotes\origin132944305269651890 1
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.object.is-extensible.js132932019105060000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.object.is-frozen.js132932019105060000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\types\unsafe.js132932018952430000 0
@@ -14977,6 +15045,7 @@
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.string.includes.js132932019105060000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.string.link.js132932019105060000 0
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\array-to-reversed.js132932019105060000 0
+150C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\pre-merge-commit.sample132944263735935704 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.string.match.js132932019105060000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\es.string.pad-end.js132932019105060000 0
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\types\lib\validators\isNode.js132932019389800000 0
@@ -15048,6 +15117,7 @@
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\esnext.async-iterator.some.js132932019105060000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\map\map-values.js132932019105060000 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\esnext.async-iterator.to-array.js132932019105060000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ea132944305213130264 1
 105C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\test\replaceBundleReferences.test.js132932018927100000 0
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\modules\esnext.composite-key.js132932019105060000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\browserify-sign\LICENSE132932020006340000 0
@@ -15167,6 +15237,7 @@
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\async-iterator-iteration.js132932019105060000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\brorand\package.json132932020092180000 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\async-iterator-prototype.js132932019105060000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\82\4523cc6d18c4504a60bf9c90672d1b7207ed76132944303767987475 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\base64-map.js132932019105060000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\ime.js132940194880210000 0
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\call-with-safe-iteration-closing.js132932019105060000 0
@@ -15244,6 +15315,7 @@
 106C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-search\node_modules\.bin\detect-libc.cmd132944257499899392 0
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\object-keys-internal.js132932019105060000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\ordinary-to-primitive.js132932019105060000 0
+125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\HEAD132944305202840657 0
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\own-keys.js132932019105060000 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\perform.js132932019105060000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\internals\promise-resolve.js132932019105060000 0
@@ -15457,6 +15529,7 @@
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\object\create.js132932019105060000 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\object\define-getter.js132932019105060000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\object\define-property.js132932019105060000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\26\1059252b26dc98f8e5df9f8ab9969392dfe6fe132944289356015276 0
 110C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\object\get-own-property-descriptors.js132932019105060000 0
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\object\get-own-property-names.js132932019105060000 0
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\object\get-prototype-of.js132932019105060000 0
@@ -15555,6 +15628,7 @@
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\function\virtual132940198016822717 1
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\abortcontroller-polyfill\dist\cjs-ponyfill.js132931386294190000 0
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\function\virtual\bind.js132932019105060000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\30132944263993288757 1
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\function\virtual\index.js132932019105060000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\dom-collections\for-each.js132932019105060000 0
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\features\dom-collections\index.js132932019105060000 0
@@ -15793,6 +15867,7 @@
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\math\sign.js132932019105060000 0
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-json\package.json132932018997840000 0
 75C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\ajv\lib\dotjs\ref.js132932020007970000 0
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.be3f7c82.js132944305205942743 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\math\sinh.js132932019105060000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\math\tanh.js132932019105060000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\core-js\es\math\to-string-tag.js132932019105060000 0
@@ -16494,6 +16569,7 @@
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\form-submit-attributes.js132940194880210000 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\form-validation.js132940194880210000 0
 90C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\forms.js132940194880210000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\f1132944289540978714 1
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\fullscreen.js132940194880210000 0
 100C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\caniuse-lite\data\features\getrandomvalues.js132940194880210000 0
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@types\node\domain.d.ts132932019384460000 0
@@ -16934,6 +17010,7 @@
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\abortcontroller-polyfill\src\ponyfill.js132931386294190000 0
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\abortcontroller-polyfill\src\utils.js132931386294190000 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\abab\CHANGELOG.md132932019820780000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\8d132944305213599038 1
 70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\abab\index.d.ts132932019820780000 0
 70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\abab\LICENSE.md132932019820780000 0
 72C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@types\parse-json132940196056070762 1
@@ -17032,6 +17109,7 @@
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\lib\_sliced_to_array.js132932019155660000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\lib\_sliced_to_array_loose.js132932019155660000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\lib\_super_prop_base.js132932019155660000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\9f132944289552755415 1
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\lib\_tagged_template_literal.js132932019155660000 0
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@swc\helpers\lib\_to_array.js132932019155660000 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\events\src\errors.js132932018961540000 0
@@ -17103,6 +17181,7 @@
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.bin\json5.cmd132944257568920273 0
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\test\input132940195911676344 1
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\test\PromiseQueue.test.js132932018927100000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\c2132944300592283982 1
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\test\sourcemap.test.js132932018927100000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\test\input\sourcemap132940198012552742 1
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\utils\test\input\sourcemap\inline.js132932018927100000 0
@@ -17182,6 +17261,7 @@
 112C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-posthtml\node_modules\.bin\semver.cmd132944257518649418 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-posthtml\lib\loadPlugins.js132932019051010000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-postcss\lib132940196787839346 1
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\30\72821574cb20e3e8f7498c6db8fe22fe1c401d132944289534213392 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-postcss\src132940196788019369 1
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-postcss\src\constants.js132932018997750000 0
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\transformer-postcss\src\PostCSSTransformer.js132932018997750000 0
@@ -17624,6 +17704,7 @@
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\hash\parcel-hash.linux-x64-musl.node132932019009770000 0
 99C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\hash\parcel-hash.win32-x64-msvc.node132932019009770000 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\hash\node_modules\.bin\detect-libc132944257500189395 0
+152C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\prepare-commit-msg.sample132944263736085700 0
 97C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\.travis.yml132932018960440000 0
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\fixtures132940196796673396 1
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\index.js132932018960440000 0
@@ -17648,6 +17729,7 @@
 118C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\node_modules\readable-stream\doc132940195725639944 1
 124C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\node_modules\readable-stream\duplex.js132932019070920000 0
 118C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\node_modules\readable-stream\lib132940196772025757 1
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\c5\4b2cdc01be04893e9f03370f4638f96f3bfbce132944303763749989 0
 129C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\node_modules\readable-stream\passthrough.js132932019070920000 0
 134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\node_modules\readable-stream\writable-browser.js132932019070920000 0
 136C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-write-stream-atomic\node_modules\readable-stream\lib\_stream_duplex.js132932019070920000 0
@@ -17661,6 +17743,7 @@
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-search\fs-search.darwin-x64.node132932018941430000 0
 107C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-search\fs-search.linux-arm-gnueabihf.node132932018941430000 0
 103C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-search\fs-search.linux-arm64-gnu.node132932018941430000 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\a0132944289551974210 1
 104C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-search\fs-search.linux-arm64-musl.node132932018941430000 0
 101C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-search\fs-search.linux-x64-gnu.node132932018941430000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\fs-search\fs-search.linux-x64-musl.node132932018941430000 0
@@ -17820,6 +17903,7 @@
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\lib\RequestTracker.js132932018997660000 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\lib\resolveOptions.js132932018997660000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\lib\summarizeRequest.js132932018997660000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\15\bdecff4b140f1756155be70e4f683254dd1269132944289546485510 0
 98C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\lib\TargetDescriptor.schema.js132932018997660000 0
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\lib\types.js132932018997660000 0
 91C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@parcel\core\lib\UncommittedAsset.js132932018997660000 0
@@ -17933,6 +18017,7 @@
 84C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@nodelib\fs.scandir\README.md132932019397250000 0
 87C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@nodelib\fs.scandir\out\adapters132940197469059547 1
 93C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@nodelib\fs.scandir\out\constants.d.ts132932019397250000 0
+134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.8edbd499.css132944305205474005 0
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@nodelib\fs.scandir\out\index.d.ts132932019397250000 0
 88C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@nodelib\fs.scandir\out\providers132940197473099507 1
 92C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@nodelib\fs.scandir\out\settings.d.ts132932019397250000 0
@@ -18069,6 +18154,7 @@
 89C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\types\lib\asserts\generated132940197959629560 1
 74C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\traverse\lib132940196797789456 1
 78C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\traverse\LICENSE132937600621230000 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\2a\72f0338e860843bae4ed93c44847ee218027e9132944289585475406 0
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\traverse\node_modules132944257495739382 1
 83C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\traverse\package.json132937600621230000 0
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\traverse\README.md132937600621230000 0
@@ -18234,6 +18320,7 @@
 85C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\generator\lib\buffer.js132937600614310000 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\generator\lib\generators132940197510769538 1
 80C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\generator\lib\node132940197505059578 1
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\20\00b45d2b2249dd40c8873fe27cc88cfbef0e39132944300592596536 0
 86C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\generator\lib\printer.js132937600614310000 0
 95C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\generator\lib\node\parentheses.js132937600614310000 0
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\generator\lib\node\whitespace.js132937600614310000 0
@@ -18289,6 +18376,7 @@
 79C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\core\lib\parse.js132937600600630000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\core\lib\parser132940197505469549 1
 76C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\core\lib\tools132940197504979547 1
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\b9\027d18c2f87732227d2577ccf22a96d30d01b9132944305207817743 0
 96C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\core\lib\transform-file-browser.js132937600600630000 0
 77C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\core\lib\vendor132940197505629534 1
 94C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@babel\core\lib\transformation\index.js132937600600630000 0
@@ -18343,6 +18431,122 @@
 108C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@ampproject\remapping\dist\types\original-source.d.ts132932019383080000 0
 102C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@ampproject\remapping\dist\types\remapping.d.ts132932019383080000 0
 103C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\@ampproject\remapping\dist\types\source-map.d.ts132932019383080000 0
+70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages132944263735415664 1
+115C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git132944305205942743 1
+136C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\favicon.b7e211df.png132944305205786505 0
+134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\fondo.5a70de54.png132944305205786505 0
+134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\giphy.2274061c.gif132944305205786505 0
+134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.7bc7e152.css132944305205474005 0
+138C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.7bc7e152.css.map132944305205474005 0
+138C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.8454bb1f.css.map132944305205474005 0
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.8717f8ef.js132944305205474005 0
+137C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.8717f8ef.js.map132944305205474005 0
+138C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.8edbd499.css.map132944305205474005 0
+134C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.b527eac1.css132944305205474005 0
+138C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.b527eac1.css.map132944305205474005 0
+137C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.e5d94daf.js.map132944305205474005 0
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.ede447c5.js132944305205474005 0
+137C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.ede447c5.js.map132944305205474005 0
+126C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\index.html132944305205474005 0
+135C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\tijera.6a2fdda1.svg132944305205630265 0
+135C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\COMMIT_EDITMSG132944305213130264 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\FETCH_HEAD132944305199074079 0
+126C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks132944263736125694 1
+125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs132944263925703159 1
+128C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects132944305214536538 1
+132C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\packed-refs132944263924805006 0
+125C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs132944263924935002 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\heads132944305213911507 1
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\remotes132944263924945030 1
+130C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\tags132944263736175702 1
+145C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\remotes\origin\HEAD132944263925583136 0
+136C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\refs\heads\main132944263925693178 0
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\13132944263987137912 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\15132944289547110463 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\1e132944289545548004 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\24132944289544911964 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\2a132944289586100399 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\35132944289539416121 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\39132944289587374116 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\40132944289549858272 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\42132944303763593739 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\45132944289542541180 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\47132944263988508706 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\52132944289546329259 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\5f132944289582819152 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\78132944289357734098 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\82132944303768456262 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\8b132944263988978721 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\92132944263981925009 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\99132944263989888727 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ac132944263985925130 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\b8132944300586309903 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\b9132944289535932194 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ca132944289582037885 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\cb132944263987818751 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\cd132944289355390371 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\e0132944289540353703 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\e7132944263983962218 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\e9132944289548048007 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\f8132944263983692217 1
+131C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\fc132944300585372337 1
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\info132944263736495685 1
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\pack132944263925843157 1
+184C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\pack\pack-2506b0e3e6584db7ae1e85c80a34df923a8265a9.pack132944305206723990 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\fc\4803f5c95eca5a330ac8855627708d20bcb083132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\f2\592d6d28ccc2dd40e835cea5dfbc65e081ca5d132944289536088452 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\f1\57b141bf19bf6dcfd2f01e1362e7418b10ddd5132944289540509935 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ea\2f874cfbc6e3856bf3354e9df556704164cea4132944305207348992 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ea\4f67fd46035afcac9180f635161552d437932b132944305212349051 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\e9\5a6f4d53857ac60b20d3018706ffac5128f0d5132944289547266748 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\e7\5926572d442ca3861112e9653bbc6c0d721363132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\cd\c45716e7ba1d509dec929d0070ef42e2400123132944289354921594 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\cc\2f4db03562f6bd0e9c571bbfec6a397169521a132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\cb\289a9d4c6eb42b88d4decdd1e789f66c392b67132944289535932194 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\cb\ea854c14a15deaad0114a688d1b614c9219875132944305207036497 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ca\3e7ad547f10411b3d6ae7037a6aef7085150f4132944263993738773 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\c2\3c7f12356e044475665ef908669ee91f2be477132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\c2\f5da21f034edbc5690bdcace3f4a49fc426e5f132944300591502773 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\b8\eb42518005d7f49a4c4cfd6be86fcf421a1cc3132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\ac\54740b4d1599d59db5f56e5ccfc86d9c9a68cb132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\a7\95cfd91d30f4c689fbb9110d61d24fea185fa1132944289543322458 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\92\09b078fb66e46023fef8de2beeb0d8b072d874132944305207036497 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\90\befefb432b346e2fb45ddfc44bca9c80472129132944289537338452 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\8d\d8af03ad5a10ba2fdfc3c90a1720b52a2828f5132944305213130264 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\8b\3bed003f9cdc4c1966140729673e34a008ff24132944305207817743 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\78\74f8d5f929464e41341b6a711196446a6df640132944289356952816 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\66\b8522bb22a2d8b9d938e81d029c81fb98e5429132944289554630432 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\5f\348cf712987754d7e6053e0203de54264e1dfe132944289358931524 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\5f\ad86a97e754c76feddb2ef866aba3ea9216be6132944299223886473 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\5c\e5ca23b17cae80eb67ce3971b251d8a241a385132944289541134989 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\52\cedd3ec0770c1fd5103302d822322f10c5f552132944289545704243 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\47\ae9ebcfb132d3f308d53fe2a221b32f0ecb4e4132944305207661488 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\45\557e8d186a8df842116c154684d756ca773ab3132944289541916193 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\43\82e3ed1b66dfca74368dd699f202e59ae4d2ee132944289554988642 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\40\5ba97cd4e7d1fe78c3891b3ce68d8e3d76d78a132944289548673019 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\30\b067f16ebf4aab0c32fb6b79275301874f7678132944305207036497 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\2a\15bc834d7e07b2fbac8ce19e09f7ec9d1755bd132944289553536674 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\2a\a2002e63d213f9c448f267e072ebd1cbd1d7ab132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\24\874de9afe0051587f923bc804c1ef71372de8d132944289544103654 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\1e\c77bfc2369b42a954f939e66262d8d21fcef05132944289544922925 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\19\d95f20841d103192b2f1fb89cbcf01e7d6dec7132944289355546618 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\13\578b2383aab8021646c73da85db3163cd5b415132944305207192738 0
+170C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\objects\04\cfd319a01fa71cb552af8e0dbcb6b381895a72132944289506845551 0
+130C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\HEAD132944305213755297 0
+130C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs132944263925723149 1
+136C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\heads132944263994688741 1
+138C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\remotes132944263925273151 1
+145C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\remotes\origin132944289560807874 1
+154C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\remotes\origin\gh-pages132944305269621863 0
+150C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\remotes\origin\HEAD132944263925583136 0
+150C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\remotes\origin\main132944289560964066 0
+145C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\heads\gh-pages132944305213755297 0
+141C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\logs\refs\heads\main132944263925733140 0
+133C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\info\exclude132944263736145695 0
+144C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\commit-msg.sample132944263735555691 0
+145C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\post-update.sample132944263735885694 0
+144C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\pre-commit.sample132944263735915715 0
+145C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.cache\gh-pages\https!github.com!ayrton08!dwf-m5-desafio.git\.git\hooks\pre-receive.sample132944263736065692 0
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.bin\acorn.cmd132944257570190272 0
 69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.bin\ansi-html132944257570343154 0
 73C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\node_modules\.bin\ansi-html.cmd132944257570291958 0
@@ -18409,6 +18613,11 @@
 70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.8edbd499.css.map132944259789624073 0
 66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.b527eac1.css132944259788834095 0
 70C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.b527eac1.css.map132944259789624073 0
-58C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.html132944259788814103 0
+65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.be3f7c82.js132944305104044480 0
+65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.e5d94daf.js132944288223069855 0
+69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.e5d94daf.js.map132944288224179811 0
+65C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.ede447c5.js132944303564731118 0
+69C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.ede447c5.js.map132944303566821100 0
+58C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\index.html132944305104034457 0
 66C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\papel.5f79bbf0.svg132944259780764079 0
 67C:\Users\Ayrton\src\dwf-m5\dwf-m5-desafio\build\piedra.c88f7ccf.svg132944259780764079 0

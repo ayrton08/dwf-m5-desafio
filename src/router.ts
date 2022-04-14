@@ -40,14 +40,22 @@ const routes = [
     },
 ];
 
+const BASE_PATH = "/dwf-m5-desafio";
+
+function isGithubPages() {
+  return location.host.includes("github.io");
+}
+
 export function initRouter(container: Element) {
     function goTo(path,data) {
+        const completePath = isGithubPages() ? BASE_PATH + path : path;
         
-        history.pushState(data, "", path);
+        history.pushState(data, "", completePath);
         handleRoute(path);
     }
 
     function handleRoute(route) {
+        const newRoute = isGithubPages() ? route.replace(BASE_PATH, "") : route;
         for (const r of routes) {
             if (r.path.test(route)) {
                 const el = r.component({ goTo: goTo });
