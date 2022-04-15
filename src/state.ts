@@ -35,10 +35,13 @@ export const state = {
 
     historyVos(){
         const value = JSON.parse(sessionStorage.getItem("vos"))
+        if (value === null) return 0
         return value
     },
     historyMaquina(){
         const value = JSON.parse(sessionStorage.getItem("maquina"))
+        if (value === null) return 0
+
         return value
 
     },
