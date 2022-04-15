@@ -6,39 +6,21 @@ export function jugada(params) {
     div.className = "container-jugada";
 
     const jugada = {
-        papel: `<papel-comp></papel-comp>`,
-        piedra: `<piedra-comp></piedra-comp>`,
-        tijera: `<tijera-comp></tijera-comp>`,
+        papel: `<papel-comp width="250px" height="250px"></papel-comp>`,
+        piedra: `<piedra-comp width="250px" height="250px"></piedra-comp>`,
+        tijera: `<tijera-comp width="250px" height="250px"></tijera-comp>`,
     };
 
-    
-    
-    
     div.innerHTML = `
     ${jugada[history.state.machine]}
     ${jugada[history.state.player]}
     `;
-    
-    div.firstElementChild.className = "maquina"
 
-    setTimeout(()=>{
+    div.firstElementChild.className = "maquina";
 
-        if(history.state.resultado === "ganaste") {
-            return params.goTo("/result/ganaste",history.state)
-
-        }
-
-        if(history.state.resultado === "perdiste") {
-            return params.goTo("/result/perdiste",history.state)
-
-        }
-
-        if(history.state.resultado === "empate") {
-            return params.goTo("/result/empate",history.state)
-
-        }
-
-    },2000)
+    setTimeout(() => {
+        return params.goTo(`/result/${history.state.resultado}`, history.state);
+    }, 2000);
 
     return div;
 }

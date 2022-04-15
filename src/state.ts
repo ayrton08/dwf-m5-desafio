@@ -1,6 +1,5 @@
 type Jugada = "piedra" | "papel" | "tijera";
 
-
 export const state = {
     data: {
         currentGame: {
@@ -32,18 +31,20 @@ export const state = {
         }
     },
 
-
-    historyVos(){
-        const value = JSON.parse(sessionStorage.getItem("vos"))
-        if (value === null) return 0
-        return value
+    historyVos() {
+        let value = JSON.parse(sessionStorage.getItem("vos"));
+        if (value === null) {
+            return value = 0;
+        }
+        return value;
     },
-    historyMaquina(){
-        const value = JSON.parse(sessionStorage.getItem("maquina"))
-        if (value === null) return 0
+    historyMaquina() {
+        let value = JSON.parse(sessionStorage.getItem("maquina"));
+        if (value === null) {
+            return value = 0;
+        }
 
-        return value
-
+        return value;
     },
 
     whoWins(myPlay: Jugada, computerPlay: any) {

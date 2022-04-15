@@ -12,13 +12,18 @@ export function papel() {
 
             const div = document.createElement("img");
             div.src = image;
-            div.style.width = "85px"
-            div.style.height = "160px"
+            
+
+            if (this.hasAttribute("width") && this.hasAttribute("height")) {
+                div.style.width = this.getAttribute("width");
+                div.style.height = this.getAttribute("height");
+            } else {
+                div.style.width = "80px";
+                div.style.height = "180px";
+            }
 
             this.shadowRoot.appendChild(div);
         }
-
-        
     }
     customElements.define("papel-comp", Papel);
 }

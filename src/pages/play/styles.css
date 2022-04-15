@@ -1,5 +1,5 @@
 .container-play {
-    height: 672px;
+    min-height: 672px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

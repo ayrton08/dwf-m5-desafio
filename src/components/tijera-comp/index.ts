@@ -12,8 +12,16 @@ export function tijera() {
 
             const div = document.createElement("img");
             div.src = image;
-            div.style.width = "70px"
-            div.style.height = "160px"
+            div.style.marginTop = "15px"
+            
+            
+            if(this.hasAttribute('width') && this.hasAttribute('height')) {
+                div.style.width = this.getAttribute('width');
+                div.style.height = this.getAttribute('height');
+              } else {
+                div.style.width = "70px"
+                div.style.height = "160px"
+              }
 
     
 

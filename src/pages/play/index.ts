@@ -75,6 +75,8 @@ export function play(params) {
         const playMaquina = jugadaMaquina();
 
         const resultado = state.whoWins("papel", playMaquina);
+        console.log(resultado);
+        
         setTimeout(() => {
             if (resultado === "gane") {
                 state.win();

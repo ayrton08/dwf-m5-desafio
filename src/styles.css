@@ -5,7 +5,7 @@
 body{
     margin: 0;
     background-image: url("./images/fondo.png");
-    height: 672px; 
+     
 }
 
 .contenedor {
@@ -16,7 +16,7 @@ body{
     align-items: center;
     width: 100%;
     gap: 30px;
-    min-height: 672px;
+    min-height: 700px;
 }
 
 @media(min-width: 750px){

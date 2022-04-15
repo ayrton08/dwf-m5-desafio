@@ -524,19 +524,14 @@ const routes = [
     }, 
 ];
 const BASE_PATH = "/dwf-m5-desafio";
-function isGithubPages() {
-    return location.host.includes("github.io");
-}
 function initRouter(container) {
     function goTo(path, data) {
-        const completePath = isGithubPages() ? BASE_PATH + path : path;
-        history.pushState(data, "", completePath);
+        history.pushState(data, "", path);
         handleRoute(path);
     }
     function handleRoute(route) {
         console.log("El handleroute recibio una nueva ruta", route);
-        const newRoute = isGithubPages() ? route.replace(BASE_PATH, "") : route;
-        for (const r of routes)if (r.path.test(newRoute)) {
+        for (const r of routes)if (r.path.test(route)) {
             const el = r.component({
                 goTo: goTo
             });
@@ -546,6 +541,8 @@ function initRouter(container) {
     }
     if (location.pathname === "/") goTo("/welcome", "");
     else handleRoute(location.pathname);
+    if (location.host.includes(".github.io")) goTo("dwf-m5-desafio/welcome", {
+    });
     window.onpopstate = (event)=>{
         handleRoute(location.pathname);
     };
@@ -679,6 +676,7 @@ function play(params) {
         tijera.style.opacity = "0.4";
         const playMaquina = jugadaMaquina();
         const resultado = _state.state.whoWins("papel", playMaquina);
+        console.log(resultado);
         setTimeout(()=>{
             if (resultado === "gane") {
                 _state.state.win();
@@ -766,11 +764,13 @@ const state = {
         } else sessionStorage.setItem("maquina", "1");
     },
     historyVos () {
-        const value = JSON.parse(sessionStorage.getItem("vos"));
+        let value = JSON.parse(sessionStorage.getItem("vos"));
+        if (value === null) return value = 0;
         return value;
     },
     historyMaquina () {
-        const value = JSON.parse(sessionStorage.getItem("maquina"));
+        let value = JSON.parse(sessionStorage.getItem("maquina"));
+        if (value === null) return value = 0;
         return value;
     },
     whoWins (myPlay, computerPlay) {
@@ -900,16 +900,14 @@ function jugada(params) {
     const div = document.createElement("div");
     div.className = "container-jugada";
     const jugada1 = {
-        papel: `<papel-comp></papel-comp>`,
-        piedra: `<piedra-comp></piedra-comp>`,
-        tijera: `<tijera-comp></tijera-comp>`
+        papel: `<papel-comp width="250px" height="250px"></papel-comp>`,
+        piedra: `<piedra-comp width="250px" height="250px"></piedra-comp>`,
+        tijera: `<tijera-comp width="250px" height="250px"></tijera-comp>`
     };
     div.innerHTML = `\n    ${jugada1[history.state.machine]}\n    ${jugada1[history.state.player]}\n    `;
     div.firstElementChild.className = "maquina";
     setTimeout(()=>{
-        if (history.state.resultado === "ganaste") return params.goTo("/result/ganaste", history.state);
-        if (history.state.resultado === "perdiste") return params.goTo("/result/perdiste", history.state);
-        if (history.state.resultado === "empate") return params.goTo("/result/empate", history.state);
+        return params.goTo(`/result/${history.state.resultado}`, history.state);
     }, 2000);
     return div;
 }
@@ -988,8 +986,13 @@ function papel() {
             });
             const div = document.createElement("img");
             div.src = image;
-            div.style.width = "85px";
-            div.style.height = "160px";
+            if (this.hasAttribute("width") && this.hasAttribute("height")) {
+                div.style.width = this.getAttribute("width");
+                div.style.height = this.getAttribute("height");
+            } else {
+                div.style.width = "80px";
+                div.style.height = "180px";
+            }
             this.shadowRoot.appendChild(div);
         }
     }
@@ -1017,8 +1020,14 @@ function piedra() {
             });
             const div = document.createElement("img");
             div.src = image;
-            div.style.width = "70px";
-            div.style.height = "160px";
+            div.style.marginTop = "15px";
+            if (this.hasAttribute("width") && this.hasAttribute("height")) {
+                div.style.width = this.getAttribute("width");
+                div.style.height = this.getAttribute("height");
+            } else {
+                div.style.width = "70px";
+                div.style.height = "160px";
+            }
             this.shadowRoot.appendChild(div);
         }
     }
@@ -1046,8 +1055,14 @@ function tijera() {
             });
             const div = document.createElement("img");
             div.src = image;
-            div.style.width = "70px";
-            div.style.height = "160px";
+            div.style.marginTop = "15px";
+            if (this.hasAttribute('width') && this.hasAttribute('height')) {
+                div.style.width = this.getAttribute('width');
+                div.style.height = this.getAttribute('height');
+            } else {
+                div.style.width = "70px";
+                div.style.height = "160px";
+            }
             this.shadowRoot.appendChild(div);
         }
     }
