@@ -6,9 +6,9 @@ export function jugada(params) {
     div.className = "container-jugada";
 
     const jugada = {
-        papel: `<papel-comp width="250px" height="250px"></papel-comp>`,
-        piedra: `<piedra-comp width="250px" height="250px"></piedra-comp>`,
-        tijera: `<tijera-comp width="250px" height="250px"></tijera-comp>`,
+        papel: `<papel-comp width="140px" height="250px"></papel-comp>`,
+        piedra: `<piedra-comp width="140px" height="250px"></piedra-comp>`,
+        tijera: `<tijera-comp width="140px" height="250px"></tijera-comp>`,
     };
 
     div.innerHTML = `

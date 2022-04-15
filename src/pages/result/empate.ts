@@ -13,7 +13,7 @@ export function empate (params) {
 
 
     div.innerHTML = `
-        <img src="${giphy}" alt="">
+        <img class="giphy" src="${giphy}" alt="">
         <button-playagain></button-playagain>
     
         `

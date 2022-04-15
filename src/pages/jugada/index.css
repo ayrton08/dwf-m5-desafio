@@ -20,7 +20,11 @@
 
 .maquina {
     transform: rotate(180deg);
-    
-    
+  
+}
+
+img {
+    width: 150px;
+    height: 250px;
 }
 

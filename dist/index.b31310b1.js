@@ -878,7 +878,7 @@ function empate(params) {
     console.log(history.state.resultado);
     console.log(history.state.player);
     console.log(history.state.machine);
-    div.innerHTML = `\n        <img src="${giphy}" alt="">\n        <button-playagain></button-playagain>\n    \n        `;
+    div.innerHTML = `\n        <img class="giphy" src="${giphy}" alt="">\n        <button-playagain></button-playagain>\n    \n        `;
     const button = div.querySelector("button-playagain");
     button.addEventListener("click", (event)=>{
         event.preventDefault();
@@ -900,9 +900,9 @@ function jugada(params) {
     const div = document.createElement("div");
     div.className = "container-jugada";
     const jugada1 = {
-        papel: `<papel-comp width="250px" height="250px"></papel-comp>`,
-        piedra: `<piedra-comp width="250px" height="250px"></piedra-comp>`,
-        tijera: `<tijera-comp width="250px" height="250px"></tijera-comp>`
+        papel: `<papel-comp width="140px" height="250px"></papel-comp>`,
+        piedra: `<piedra-comp width="140px" height="250px"></piedra-comp>`,
+        tijera: `<tijera-comp width="140px" height="250px"></tijera-comp>`
     };
     div.innerHTML = `\n    ${jugada1[history.state.machine]}\n    ${jugada1[history.state.player]}\n    `;
     div.firstElementChild.className = "maquina";
