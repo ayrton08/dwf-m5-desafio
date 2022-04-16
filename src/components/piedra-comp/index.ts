@@ -4,6 +4,9 @@ export function piedra() {
     class Piedra extends HTMLElement {
         constructor() {
             super();
+        }
+
+        connectedCallback() {
             this.render();
         }
 

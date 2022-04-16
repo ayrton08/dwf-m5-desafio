@@ -4,6 +4,9 @@ export function historyComp() {
     class History extends HTMLElement {
         constructor() {
             super();
+        }
+
+        connectedCallback() {
             this.render();
         }
 

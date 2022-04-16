@@ -624,7 +624,7 @@ function play(params) {
     function redireccionar() {
         if (location.pathname === "/play") params.goTo("/instructions");
     }
-    setTimeout(redireccionar, 5000);
+    setTimeout(redireccionar, 7000);
     const div = document.createElement("div");
     div.className = "container-play";
     div.innerHTML = `\n    \n    <counter-comp></counter-comp>\n    <div class="jugadas">\n    <piedra-comp></piedra-comp>\n    <papel-comp></papel-comp>\n    <tijera-comp></tijera-comp>\n    </div>\n    `;
@@ -921,6 +921,8 @@ function titleText() {
     class Title extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -933,7 +935,7 @@ function titleText() {
             this.shadowRoot.appendChild(div);
         }
         getStyle() {
-            return `\n            <style>\n                .root {\n                margin: 0;\n                color: #009048;\n                font-family: 'Caveat', cursive;\n                font-size: 45px;\n                \n            }\n            h1 {\n                    margin: 0;\n                }\n            </style>\n\n            `;
+            return `\n            <style>\n                .root {\n                margin: 0;\n                color: #F8C471;\n                font-family: 'Caveat', cursive;\n                font-size: 45px;\n                \n            }\n            h1 {\n                    margin: 0;\n                }\n            </style>\n\n            `;
         }
     }
     customElements.define("title-text", Title);
@@ -978,6 +980,8 @@ function papel() {
     class Papel extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -1012,6 +1016,8 @@ function piedra() {
     class Piedra extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -1047,6 +1053,8 @@ function tijera() {
     class Tijera extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -1081,6 +1089,8 @@ function buttonPlay() {
     class ButtonPlay extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -1108,6 +1118,8 @@ function instructionsComp() {
     class Instructions extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -1135,6 +1147,8 @@ function buttonPlayAgain() {
     class ButtonPlayAgain extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {
@@ -1180,10 +1194,20 @@ function counterComp() {
             return `\n            <style>\n                .clock {\n	        width: 300px;\n	        height: 300px;\n	        border-radius: 50%;\n	        background-color: lightgrey;\n	        margin: auto;\n            font-family: 'Odibee Sans', cursive;\n            }\n        \n                .seconds {\n	        display: block;\n	        width: 100%;\n	        margin: auto;\n	        padding-top: 60px;\n	        text-align: center;\n	        font-size: 150px;\n            }\n          \n            \n            </style>\n\n            `;
         }
         counter() {
-            let counter = 4;
+            let counter = 6;
             let interval = setInterval(()=>{
                 counter--;
-                if (counter == 3) {
+                if (counter == 5) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "5";
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#EC7063";
+                } else if (counter == 4) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "4";
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#BB8FCE";
+                } else if (counter == 3) {
                     let shadow = this.shadowRoot.querySelector(".seconds");
                     shadow.textContent = "3";
                     let circulo = this.shadowRoot.querySelector(".clock");
@@ -1221,6 +1245,8 @@ function historyComp() {
     class History1 extends HTMLElement {
         constructor(){
             super();
+        }
+        connectedCallback() {
             this.render();
         }
         render() {

@@ -51,28 +51,39 @@ export function counterComp() {
             `;
         }
         counter() {
-            let counter = 4;
+            let counter = 6;
             let interval = setInterval(() => {
                 counter--;
-                if (counter == 3) {
+                if (counter == 5) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "5";
+
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#EC7063";
+                } else if (counter == 4) {
+                    let shadow = this.shadowRoot.querySelector(".seconds");
+                    shadow.textContent = "4";
+
+                    let circulo = this.shadowRoot.querySelector(".clock");
+                    circulo.style.background = "#BB8FCE";
+                } else if (counter == 3) {
                     let shadow = this.shadowRoot.querySelector(".seconds");
                     shadow.textContent = "3";
-                    
+
                     let circulo = this.shadowRoot.querySelector(".clock");
-                    circulo.style.background = "#F8C471"
+                    circulo.style.background = "#F8C471";
                 } else if (counter == 2) {
                     let shadow = this.shadowRoot.querySelector(".seconds");
                     shadow.textContent = "2";
 
                     let circulo = this.shadowRoot.querySelector(".clock");
-                    circulo.style.background = "#2ECC71 "
+                    circulo.style.background = "#2ECC71 ";
                 } else if (counter == 1) {
                     let shadow = this.shadowRoot.querySelector(".seconds");
                     shadow.textContent = "1";
 
                     let circulo = this.shadowRoot.querySelector(".clock");
-                    circulo.style.background = "#D2B4DE"
-
+                    circulo.style.background = "#D2B4DE";
                 } else if (counter == 0) {
                     let shadow = this.shadowRoot.querySelector(".seconds");
                     shadow.innerHTML = `
@@ -85,8 +96,7 @@ export function counterComp() {
                     </style>
                     `;
                     let circulo = this.shadowRoot.querySelector(".clock");
-                    circulo.style.background = "#F1948A"
-                    
+                    circulo.style.background = "#F1948A";
                 } else {
                     clearInterval(interval);
                 }
@@ -96,4 +106,3 @@ export function counterComp() {
     }
     customElements.define("counter-comp", Counter);
 }
-

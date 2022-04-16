@@ -1,5 +1,5 @@
 .container-play {
-    min-height: 672px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 @media(min-width: 750px){
     .container-play {
         width: 100%;
-        height: 940px;
+        height: 100vh;
         display: flex;
         align-items: center;
         gap: 50px;

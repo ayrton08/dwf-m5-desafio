@@ -2,6 +2,9 @@ export function titleText() {
     class Title extends HTMLElement {
         constructor() {
             super();
+        }
+
+        connectedCallback() {
             this.render();
         }
 
@@ -23,7 +26,7 @@ export function titleText() {
             <style>
                 .root {
                 margin: 0;
-                color: #009048;
+                color: #F8C471;
                 font-family: 'Caveat', cursive;
                 font-size: 45px;
                 

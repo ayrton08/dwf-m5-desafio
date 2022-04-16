@@ -2,8 +2,12 @@ export function buttonPlayAgain() {
     class ButtonPlayAgain extends HTMLElement {
         constructor() {
             super();
+        }
+
+        connectedCallback() {
             this.render();
         }
+
         render() {
             this.attachShadow({ mode: "open" });
 
@@ -14,7 +18,7 @@ export function buttonPlayAgain() {
             button.innerHTML = `
                 <span>Volver a Jugar</span>
                 ${this.getStyles()}    
-            `
+            `;
 
             this.shadowRoot.appendChild(button);
         }

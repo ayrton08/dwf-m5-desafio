@@ -4,6 +4,9 @@ export function tijera() {
     class Tijera extends HTMLElement {
         constructor() {
             super();
+        }
+
+        connectedCallback() {
             this.render();
         }
 

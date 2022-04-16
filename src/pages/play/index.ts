@@ -7,7 +7,7 @@ export function play(params) {
         }
     }
 
-    setTimeout(redireccionar, 5000);
+    setTimeout(redireccionar, 7000);
 
     const div = document.createElement("div");
     div.className = "container-play";

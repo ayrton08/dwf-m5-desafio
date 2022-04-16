@@ -2,6 +2,9 @@ export function instructionsComp() {
     class Instructions extends HTMLElement {
         constructor() {
             super();
+        }
+
+        connectedCallback() {
             this.render();
         }
 
